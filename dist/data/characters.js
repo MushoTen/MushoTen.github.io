@@ -1,5 +1,5 @@
 const characters = {
-    fireRudeus: {
+    fireRudeus3star: {
         thumb: "cc_0001010_01.png",
         title: "Skillful Actor",
         name: "Rudeus",
@@ -22,7 +22,7 @@ const characters = {
         },
     },
 
-    fireRoxy: {
+    fireRoxy3star: {
         thumb: "cc_0002008_01.png",
         title: "Blue Haired Beauty",
         name: "Roxy",
@@ -46,7 +46,7 @@ const characters = {
         },
     },
 
-    fireEris: {
+    fireEris3star: {
         thumb: "cc_0004001_01.png",
         title: "Tomboyish Girl",
         name: "Eris",
@@ -66,6 +66,29 @@ const characters = {
             hp: "850",
             atk: "500",
             def: "130",
+        },
+    },
+
+    fireLilia3star: {
+        thumb: "cc_0007001_01.png",
+        title: "Grayrat Family Maid",
+        name: "Lilia",
+        rarity: "3",
+        element: "Fire",
+        tier: {
+            rank: "X",
+            desc: "Awful stats, but decreases enemy buff turns by 3. This might come in handy.",
+        },
+        base: {
+            hp: "700",
+            atk: "200",
+            def: "150",
+            spd: "9",
+        },
+        mlb: {
+            hp: "1000",
+            atk: "300",
+            def: "210",
         },
     },
 };
