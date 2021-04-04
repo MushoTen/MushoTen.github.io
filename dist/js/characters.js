@@ -21,7 +21,7 @@ function charactersAppend(character) {
     }
 
     $("#characters").append(`
-        <div class="mb-2 bg-white shadow-md rounded-xl">
+        <div class="bg-white shadow-md rounded-xl">
             <div class="pt-2 pl-4 flex items-center">
                 <div class="flex-shrink-0">
                     <img class="mx-auto h-36 rounded-2xl md:mx-0 sm:flex-shrink-0"
