@@ -5,17 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mushoku Tensei: Game ni Nattemo Honki Dasu</title>
+    <title>Characters | Mushoku Tensei: Game ni Nattemo Honki Dasu</title>
     <link rel="stylesheet" href="./dist/css/mushoten.css">
-    <style>
-        .element {
-            position: absolute;
-        }
-    </style>
 </head>
 
 <body class="bg-gray-200">
-    <!-- This example requires Tailwind CSS v2.0+ -->
     <nav class="bg-gray-800">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="relative flex items-center justify-between h-16">
@@ -98,42 +92,14 @@
         </div>
     </nav>
 
-    <div class="mt-4">
-        <div class="mb-4 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl">
-            <div class="md:flex">
-                <div class="py-2 pl-2 md:flex-shrink-0">
-                    <div class="mx-auto h-24 rounded-2xl md:h-36 md:mx-0 sm:flex-shrink-0">
-                        <img class="mx-auto h-24 rounded-2xl md:h-36 md:mx-0 sm:flex-shrink-0"
-                            src="./dist/img/characters/cc_0001010_01.png" alt="Rudeus">
-                    </div>
-                </div>
-                <div class="p-4 align-bottom">
-                    <div class="uppercase tracking-wide text-sm text-amber-500 font-semibold">Skillful Actor</div>
-                    <a href="#" class="text-2xl leading-tight font-medium text-amber-900 hover:underline">Rudeus</a>
-                    <p class="mt-1 text-sm text-gray-500">
-                        Element
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">
-                            <img class="inline" src="./dist/img/elements/Fire.png" alt="Fire" width="12">
-                            Fire
-                        </span>
-                    </p>
-                    <p class="mt-1 text-sm text-gray-500">
-                        Base
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">500 HP</span>
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">450 ATK</span>
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">100 DEF</span>
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">12 SPD</span>
-                    </p>
-                    <p class="mt-1 text-sm text-gray-500">
-                        Max LB
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">800 HP</span>
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">800 ATK</span>
-                        <span class="text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-full">130 DEF</span>
-                    </p>
-                </div>
-            </div>
-        </div>
+    <div class="max-w-7xl mx-auto mt-2 px-2 sm:px-6 lg:mt-4 lg:lx-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="characters"></div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./dist/data/characters.js"></script>
+    <script src="./dist/js/characters.js"></script>
 </body>
 
 </html>
