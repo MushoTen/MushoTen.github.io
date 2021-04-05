@@ -366,7 +366,7 @@ ul {
  */
 
 html {
-  font-family: Graphik, sans-serif; /* 1 */
+  font-family: Inter var, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -5316,7 +5316,7 @@ video {
 }
 
 .font-sans {
-  font-family: Graphik, sans-serif;
+  font-family: Inter var, sans-serif;
 }
 
 .font-serif {
@@ -24899,7 +24899,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: Graphik, sans-serif;
+    font-family: Inter var, sans-serif;
   }
 
   .sm\:font-serif {
@@ -44404,7 +44404,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: Graphik, sans-serif;
+    font-family: Inter var, sans-serif;
   }
 
   .md\:font-serif {
@@ -63909,7 +63909,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: Graphik, sans-serif;
+    font-family: Inter var, sans-serif;
   }
 
   .lg\:font-serif {
@@ -83414,7 +83414,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: Graphik, sans-serif;
+    font-family: Inter var, sans-serif;
   }
 
   .xl\:font-serif {
@@ -102919,7 +102919,7 @@ video {
   }
 
   .\32xl\:font-sans {
-    font-family: Graphik, sans-serif;
+    font-family: Inter var, sans-serif;
   }
 
   .\32xl\:font-serif {

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Characters | Mushoku Tensei: Game ni Nattemo Honki Dasu</title>
     <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="./dist/css/mushoten.css">
 </head>
 
@@ -53,7 +54,7 @@
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                            <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                            <a href="./" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
                                 aria-current="page">Characters</a>
                             <!-- <a href="#"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Equipments</a>
@@ -75,7 +76,7 @@
         <div class="sm:hidden" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+                <a href="./" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
                     aria-current="page">
                     Characters
                 </a>
@@ -91,31 +92,113 @@
         </div>
     </nav>
 
-    <div class="max-w-7xl mx-auto mt-2 px-2 sm:px-6 lg:mt-4 lg:lx-8">
-        <div class="bg-white shadow-md mb-2 lg:mb-4 rounded-lg py-2 px-4 text-dark text-sm">
+    <div class="max-w-7xl mx-auto mt-4 px-2 sm:px-6 lg:lx-8">
+        <div class="bg-amber-50 shadow-sm mb-4 rounded-lg py-2 px-4 text-dark text-sm">
             <ul class="pl-4 list-disc">
                 <li>
                     The site is currently Work in Progress, if you want to report anything just ping "@Game Journalist"
-                    in the <a href="https://discord.gg/fwk7yGhaHr" class="text-amber-500 hover:underline"
-                        target="_blank">Discord
-                        Server</a>.
+                    in the
+                    <a href="https://discord.gg/fwk7yGhaHr" class="text-amber-900 hover:underline" target="_blank">
+                        Discord Server</a>.
                 </li>
+
                 <li>
                     Mushoku Tensei next live stream on April 5, 8:00 PM.
-                    <a href="https://youtu.be/dEhO6FPuyts" class="text-amber-500 hover:underline" target="_blank">
-                        Watch it here
-                    </a>.
+                    <a href="https://youtu.be/dEhO6FPuyts" class="text-amber-900 hover:underline" target="_blank">
+                        Watch it here</a>.
                 </li>
             </ul>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="characters"></div>
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <div class="max-w-7xl block mb-2 float-right">
+            <div class="relative inline-block mr-2" id="searchResult"></div>
+            <div class="relative inline-block">
+                <div>
+                    <button type="button"
+                        class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                        id="sort" aria-expanded="true" aria-haspopup="true">
+                        Sort
+                        <!-- Heroicon name: solid/chevron-down -->
+                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!--
+          Dropdown menu, show/hide based on menu state.
+      
+          Entering: "transition ease-out duration-100"
+            From: "transform opacity-0 scale-95"
+            To: "transform opacity-100 scale-100"
+          Leaving: "transition ease-in duration-75"
+            From: "transform opacity-100 scale-100"
+            To: "transform opacity-0 scale-95"
+        -->
+                <div class="hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-md bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none"
+                    role="sort" aria-orientation="vertical" aria-labelledby="sort" id="sort-options">
+                    <div class="py-1" role="none">
+                        <a href="./" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Show All</a>
+                    </div>
+                    <div class="py-1" role="none">
+                        <a href="?rarity=3"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">3 Stars</a>
+                        <a href="?rarity=4"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">4 Stars</a>
+                        <a href="?rarity=5"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">5 Stars</a>
+                    </div>
+                    <div class="py-1" role="none">
+                        <a href="?element=Fire"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Fire</a>
+                        <a href="?element=Water"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Water</a>
+                        <a href="?element=Wind"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Wind</a>
+                        <a href="?element=Earth"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Earth</a>
+                        <a href="?element=Self-Taught"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Self-Taught</a>
+                        <a href="?element=Sword God"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Sword God</a>
+                        <a href="?element=North God"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">North God</a>
+                        <a href="?element=Water God"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                            role="sortitem">Water God</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear-right grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="characters"></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./dist/data/characters.js"></script>
     <script src="./dist/js/characters.js"></script>
+    <script>
+        $('#sort').click(function (e) {
+            $('#sort-options').toggleClass("hidden");
+            e.preventDefault();
+        })
+    </script>
 </body>
 
 </html>

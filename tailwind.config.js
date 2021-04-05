@@ -10,7 +10,7 @@ module.exports = {
             amber: colors.amber,
         },
         fontFamily: {
-            sans: ["Graphik", "sans-serif"],
+            sans: ["Inter var", "sans-serif"],
             serif: ["Merriweather", "serif"],
         },
         extend: {},

@@ -1,5 +1,5 @@
-const characters = {
-    fireRudeus3star: {
+const characters = [
+    {
         thumb: "cc_0001010_01.png",
         title: "Skillful Actor",
         name: "Rudeus",
@@ -21,8 +21,7 @@ const characters = {
             def: "130",
         },
     },
-
-    fireRoxy3star: {
+    {
         thumb: "cc_0002008_01.png",
         title: "Blue Haired Beauty",
         name: "Roxy",
@@ -45,8 +44,7 @@ const characters = {
             def: "130",
         },
     },
-
-    fireEris3star: {
+    {
         thumb: "cc_0004001_01.png",
         title: "Tomboyish Girl",
         name: "Eris",
@@ -68,8 +66,7 @@ const characters = {
             def: "130",
         },
     },
-
-    fireLilia3star: {
+    {
         thumb: "cc_0007001_01.png",
         title: "Grayrat Family Maid",
         name: "Lilia",
@@ -91,4 +88,27 @@ const characters = {
             def: "210",
         },
     },
-};
+    {
+        thumb: "cc_0010001_01.png",
+        title: "Magician's Apprentice",
+        name: "Ghislaine",
+        rarity: "3",
+        element: "Fire",
+        tier: {
+            rank: "B",
+            desc:
+                "Great stats by 3-star standards. Has a Sword Skill kit but does fire element damage. Can be very useful in teams that need a physical Fire DPS for some reason.",
+        },
+        base: {
+            hp: "800",
+            atk: "400",
+            def: "125",
+            spd: "15",
+        },
+        mlb: {
+            hp: "1250",
+            atk: "900",
+            def: "150",
+        },
+    },
+];
