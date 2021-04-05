@@ -4,9 +4,11 @@ const nameSearch = urlParams.get("name");
 const raritySearch = urlParams.get("rarity");
 const elementSearch = urlParams.get("element");
 
+// const sortSearch = urlParams.get("sort");
+// console.log(sortSearch.split("rarity:")[1]);
+
 let units = [];
 units.push(...threeStarUnits);
-console.log(units);
 
 jQuery.each(units, function () {
     if (typeof nameSearch === `string`) {
@@ -34,20 +36,21 @@ jQuery.each(units, function () {
 
 function unitsAppend(units) {
     let rarity = ``;
+
     for (var i = 1; i <= units.rarity; i++) {
         rarity += `<img class="inline-block w-4" src="./dist/img/stars/1.png" alt="Star">`;
     }
 
     $("#units").append(`
         <div class="bg-white shadow-sm rounded-xl">
-            <div class="p-2 flex items-center">
+            <div class="px-4 py-2 flex items-center">
                 <div class="flex-shrink-0">
                     <img class="mx-auto h-36 rounded-2xl md:mx-0 sm:flex-shrink-0"
                         src="./dist/img/units/${units.thumb}" alt="${units.name}">
                 </div>
                 <div class="pl-2">
-                    <div class="uppercase tracking-wide text-sm text-amber-500 font-semibold">${units.title}</div>
-                    <a href="./character.html?name=${units.name}&rarity=${units.rarity}&element=${units.element}&title=${units.title}" class="text-2xl text-amber-900 hover:underline">${units.name}</a>
+                    <div class="uppercase tracking-widest text-xs text-amber-500 font-semibold">${units.title}</div>
+                    <a href="./character.html?name=${units.name}&rarity=${units.rarity}&element=${units.element}&title=${units.title}" class="text-xl text-amber-900 hover:underline">${units.name}</a>
                     <p class="relative mt-1 text-sm text-gray-500">
                         <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">${units.tier.rank}</div>
                         <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">
