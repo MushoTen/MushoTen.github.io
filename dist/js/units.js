@@ -1,5 +1,6 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
+const nameSearch = urlParams.get("name");
 const raritySearch = urlParams.get("rarity");
 const elementSearch = urlParams.get("element");
 
@@ -7,27 +8,25 @@ let units = [];
 units.push(...threeStarUnits);
 console.log(units);
 
-if (typeof raritySearch === `string`) {
-    console.log(`Search rarity: ${raritySearch}`);
-    $("#searchResult").text(`Showing all ${raritySearch}-star units`);
-} else if (typeof elementSearch === `string`) {
-    console.log(`Search element: ${elementSearch}`);
-    $("#searchResult").text(`Showing all ${elementSearch} type units`);
-} else {
-    $("#searchResult").text("Showing all 3-star units");
-}
-
 jQuery.each(units, function () {
-    if (typeof raritySearch === `string`) {
+    if (typeof nameSearch === `string`) {
+        if (nameSearch.toLowerCase() === this.name.toLowerCase()) {
+            $("#searchResult").text(`Showing all ${this.name} units`);
+            unitsAppend(this);
+        }
+    } else if (typeof raritySearch === `string`) {
         if (raritySearch === this.rarity) {
+            $("#searchResult").text(`Showing all ${raritySearch}-star units`);
             unitsAppend(this);
         }
     } else if (typeof elementSearch === `string`) {
-        if (elementSearch === this.element) {
+        if (elementSearch.toLowerCase() === this.element.toLowerCase()) {
+            $("#searchResult").text(`Showing all ${elementSearch} type units`);
             unitsAppend(this);
         }
     } else {
         if (this.rarity === `3`) {
+            $("#searchResult").text("Showing all 3-star units");
             unitsAppend(this);
         }
     }
@@ -41,14 +40,14 @@ function unitsAppend(units) {
 
     $("#units").append(`
         <div class="bg-white shadow-sm rounded-xl">
-            <div class="pt-2 px-2 flex items-center">
+            <div class="p-2 flex items-center">
                 <div class="flex-shrink-0">
                     <img class="mx-auto h-36 rounded-2xl md:mx-0 sm:flex-shrink-0"
                         src="./dist/img/units/${units.thumb}" alt="${units.name}">
                 </div>
                 <div class="pl-2">
                     <div class="uppercase tracking-wide text-sm text-amber-500 font-semibold">${units.title}</div>
-                    <a class="text-2xl text-amber-900">${units.name}</a>
+                    <a href="./character.html?name=${units.name}&rarity=${units.rarity}&element=${units.element}&title=${units.title}" class="text-2xl text-amber-900 hover:underline">${units.name}</a>
                     <p class="relative mt-1 text-sm text-gray-500">
                         <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">${units.tier.rank}</div>
                         <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">
@@ -60,7 +59,7 @@ function unitsAppend(units) {
                 </div>
             </div>
 
-            <div class="px-2 py-2">
+            <!-- <div class="px-2 py-2">
                 <p class="text-sm text-gray-500">
                     Base Stats
                     <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">${units.base.hp} HP</div>
@@ -74,7 +73,7 @@ function unitsAppend(units) {
                     <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">${units.mlb.atk} ATK</div>
                     <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">${units.mlb.def} DEF</div>
                 </p>
-            </div>
+            </div> -->
         </div>
     `);
 }

@@ -20,6 +20,26 @@ const threeStarUnits = [
             atk: "800",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0002008_01.png",
@@ -43,6 +63,26 @@ const threeStarUnits = [
             atk: "800",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0004001_01.png",
@@ -65,6 +105,26 @@ const threeStarUnits = [
             atk: "500",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0007001_01.png",
@@ -86,6 +146,26 @@ const threeStarUnits = [
             hp: "1000",
             atk: "300",
             def: "210",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -110,6 +190,26 @@ const threeStarUnits = [
             atk: "900",
             def: "150",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0001001_01.png",
@@ -131,6 +231,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "800",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -154,6 +274,26 @@ const threeStarUnits = [
             atk: "1100",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0002003_01.png",
@@ -175,6 +315,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "800",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -198,6 +358,26 @@ const threeStarUnits = [
             atk: "600",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0003008_01.png",
@@ -219,6 +399,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "600",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -242,6 +442,26 @@ const threeStarUnits = [
             atk: "350",
             def: "210",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0001011_01.png",
@@ -263,6 +483,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "1100",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -286,6 +526,26 @@ const threeStarUnits = [
             atk: "800",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0002009_01.png",
@@ -307,6 +567,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "1100",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -330,6 +610,26 @@ const threeStarUnits = [
             atk: "350",
             def: "210",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0011001_01.png",
@@ -351,6 +651,26 @@ const threeStarUnits = [
             hp: "850",
             atk: "500",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -374,6 +694,26 @@ const threeStarUnits = [
             atk: "800",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0002007_01.png",
@@ -395,6 +735,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "800",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -418,6 +778,26 @@ const threeStarUnits = [
             atk: "600",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0003009_01.png",
@@ -439,6 +819,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "800",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -462,6 +862,26 @@ const threeStarUnits = [
             atk: "600",
             def: "310",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0004004_01.png",
@@ -483,6 +903,26 @@ const threeStarUnits = [
             hp: "850",
             atk: "850",
             def: "150",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -506,6 +946,26 @@ const threeStarUnits = [
             atk: "900",
             def: "310",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0015008_01.png",
@@ -527,6 +987,26 @@ const threeStarUnits = [
             hp: "1250",
             atk: "900",
             def: "310",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -550,6 +1030,26 @@ const threeStarUnits = [
             atk: "300",
             def: "310",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0017003_01.png",
@@ -571,6 +1071,26 @@ const threeStarUnits = [
             hp: "1250",
             atk: "600",
             def: "310",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -594,6 +1114,26 @@ const threeStarUnits = [
             atk: "500",
             def: "210",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0001004_01.png",
@@ -615,6 +1155,26 @@ const threeStarUnits = [
             hp: "800",
             atk: "800",
             def: "130",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -638,6 +1198,26 @@ const threeStarUnits = [
             atk: "500",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0004014_01.png",
@@ -659,6 +1239,26 @@ const threeStarUnits = [
             hp: "850",
             atk: "600",
             def: "150",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -682,6 +1282,26 @@ const threeStarUnits = [
             atk: "600",
             def: "210",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0010003_01.png",
@@ -703,6 +1323,26 @@ const threeStarUnits = [
             hp: "1250",
             atk: "900",
             def: "150",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -726,6 +1366,26 @@ const threeStarUnits = [
             atk: "600",
             def: "150",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0005007_01.png",
@@ -747,6 +1407,26 @@ const threeStarUnits = [
             hp: "1250",
             atk: "600",
             def: "210",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -770,6 +1450,26 @@ const threeStarUnits = [
             atk: "500",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0018001_01.png",
@@ -791,6 +1491,26 @@ const threeStarUnits = [
             hp: "850",
             atk: "500",
             def: "210",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -814,6 +1534,26 @@ const threeStarUnits = [
             atk: "800",
             def: "130",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0005001_01.png",
@@ -835,6 +1575,26 @@ const threeStarUnits = [
             hp: "1250",
             atk: "600",
             def: "210",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
     {
@@ -858,6 +1618,26 @@ const threeStarUnits = [
             atk: "300",
             def: "210",
         },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
+        },
     },
     {
         thumb: "cc_0016003_01.png",
@@ -879,6 +1659,26 @@ const threeStarUnits = [
             hp: "850",
             atk: "300",
             def: "310",
+        },
+        leaderSkill: {
+            title: "",
+            lv1: "",
+            lv6: "",
+        },
+        passiveSkill: {
+            title: "",
+            lv1: "",
+            lv5: "",
+        },
+        activeSkill: {
+            one: {
+                title: "-",
+                description: "",
+            },
+            two: {
+                title: "-",
+                description: "",
+            },
         },
     },
 ];
