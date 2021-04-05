@@ -1,4 +1,4 @@
-const characters = [
+const threeStarUnits = [
     {
         thumb: "cc_0001010_01.png",
         title: "Skillful Actor",

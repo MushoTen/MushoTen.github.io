@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Characters | Mushoku Tensei: Game ni Nattemo Honki Dasu</title>
+    <title>Units | Mushoku Tensei: Game ni Nattemo Honki Dasu</title>
     <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="./dist/css/mushoten.css">
 </head>
 
 <body class="bg-gray-200">
-    <nav class="bg-gray-800">
+    <nav class="bg-gray-800 shadow-sm">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="relative flex items-center justify-between h-16">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -55,7 +55,7 @@
                         <div class="flex space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <a href="./" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
-                                aria-current="page">Characters</a>
+                                aria-current="page">Units</a>
                             <!-- <a href="#"
                                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Equipments</a>
                             <a href="#"
@@ -78,7 +78,7 @@
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a href="./" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
                     aria-current="page">
-                    Characters
+                    Units
                 </a>
                 <!-- <a href="#"
                     class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Materials</a>
@@ -181,7 +181,7 @@
             </div>
         </div>
 
-        <div class="clear-right grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2" id="characters"></div>
+        <div class="clear-right grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2" id="units"></div>
     </div>
 
     <footer class="text-center py-2">
@@ -190,8 +190,8 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./dist/data/characters.js"></script>
-    <script src="./dist/js/characters.js"></script>
+    <script src="./dist/data/three-star-units.js"></script>
+    <script src="./dist/js/units.js"></script>
     <script>
         $('#sort').click(function (e) {
             $('#sort-options').toggleClass("hidden");
