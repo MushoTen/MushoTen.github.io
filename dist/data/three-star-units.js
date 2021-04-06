@@ -33,11 +33,11 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: "Fireball",
-                description: "Deals 150% Magic Damage to 1 enemy + chance to inflict Burn to the target (1 turn)",
+                desc: "Deals 150% Magic Damage to 1 enemy + chance to inflict Burn to the target (1 turn)",
             },
             two: {
                 title: "Magic Control",
-                description: "Increase own Magic Attack by 100% (3 turns) + lowers Skill Cooldown by 20 seconds",
+                desc: "Increase own Magic Attack by 100% (3 turns) + lowers Skill Cooldown by 20 seconds",
             },
         },
     },
@@ -76,12 +76,12 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: "Heat Island",
-                description:
+                desc:
                     "Increase Magic Attack of all allies by 30% (3 turns) + 15% Attack if ally is a Fire type unit (3 turns)",
             },
             two: {
                 title: "Great Fire Ball [Ex. Flame]",
-                description: "Deals 190% Magic Damage to 1 enemy",
+                desc: "Deals 190% Magic Damage to 1 enemy",
             },
         },
     },
@@ -119,12 +119,12 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: "Heat Island",
-                description:
+                desc:
                     "Increase Magic Attack of all allies by 30% (3 turns) + 15% Attack if ally is a Fire type unit (3 turns) ",
             },
             two: {
                 title: "Onegai Nyan✰✰✰",
-                description: "Deals 150% Sword Damage to 1 enemy + chance to inflict Paralyze to the target (2 turns)",
+                desc: "Deals 150% Sword Damage to 1 enemy + chance to inflict Paralyze to the target (2 turns)",
             },
         },
     },
@@ -162,12 +162,11 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: "Analyze",
-                description: "Lowers 1 enemy Defense by 20% (3 turns)",
+                desc: "Lowers 1 enemy Defense by 20% (3 turns)",
             },
             two: {
                 title: "Repulsed",
-                description:
-                    "Lowers all enemies Magic Attack by 20% (3 turns) + reduces Buff turns of 1 enemy by 3 turns",
+                desc: "Lowers all enemies Magic Attack by 20% (3 turns) + reduces Buff turns of 1 enemy by 3 turns",
             },
         },
     },
@@ -206,11 +205,11 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: 'Nuki-Uchi "Early Advantage"',
-                description: "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)",
+                desc: "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)",
             },
             two: {
                 title: "Magic Power Eye Release",
-                description:
+                desc:
                     "Increase own Sword Attack by 100% (3 turns) + lowers Skill Cooldown by 10 seconds + recovers from Blind",
             },
         },
@@ -249,11 +248,11 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: "Waterball",
-                description: "Deals 150% Magic Damage to 1 enemy + lowers Crit Rate by 10% (3 turns)",
+                desc: "Deals 150% Magic Damage to 1 enemy + lowers Crit Rate by 10% (3 turns)",
             },
             two: {
                 title: "Water Cannon [Splash Flow]",
-                description: "100% Magic Damage to 3 enemies + inflicts Stun to 1 enemy of a Fire type (2 turns)",
+                desc: "100% Magic Damage to 3 enemies + inflicts Stun to 1 enemy of a Fire type (2 turns)",
             },
         },
     },
@@ -291,11 +290,11 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: "Waterball",
-                description: "Deals 150% Magic Damage to 1 enemy + lowers Crit Rate by 10% (3 turns)",
+                desc: "Deals 150% Magic Damage to 1 enemy + lowers Crit Rate by 10% (3 turns)",
             },
             two: {
                 title: "Magic Control",
-                description: "Increases own Magic Attack by 100% (3 turns) + lowers Skill Cooldown by 20 seconds",
+                desc: "Increases own Magic Attack by 100% (3 turns) + lowers Skill Cooldown by 20 seconds",
             },
         },
     },
@@ -333,11 +332,11 @@ const threeStarUnits = [
         activeSkill: {
             one: {
                 title: "-",
-                description: "",
+                desc: "",
             },
             two: {
                 title: "-",
-                description: "",
+                desc: "",
             },
         },
     },
@@ -363,23 +362,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Girl from Buena Village",
+            lv1: "Increase Water type units Defense by 5%",
+            lv6: "Increase Water type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Attack UP",
+            lv1: "Increase own Magic Attack by 10% + Paralysis Resistance by 30%",
+            lv5: "Increase own Magic Attack by 20% + Paralysis Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Cheer",
+                desc: "Recovers own Health by 20% + increase 1 ally Defense by 20% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Water Cannon [Splash Flow]",
+                desc: "Deals 100% Magic Damage to 3 enemies + inflicts Stun to 1 enemy of a Fire type (2 turns)",
             },
         },
     },
@@ -405,23 +404,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Long Eared Girl",
+            lv1: "Increase Water type units Defense by 5%",
+            lv6: "Increase Water type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Defense UP",
+            lv1: "Increase own Magic Defense by 10% + Paralysis Resistance by 30%",
+            lv5: "Increase own Magic Defense by 20% + Paralysis Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Waterball",
+                desc: "Deals 150% Magic Damage to 1 enemy + lowers Crit Rate by 10% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Greater Healing Arts [Ex. Healing]",
+                desc: "Recovers all allies Health by 20% + removes Poison and Paralysis effect",
             },
         },
     },
@@ -447,23 +446,23 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Milis Believer",
+            lv1: "Increase Water type units Defense by 5%",
+            lv6: "Increase Water type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Defense UP",
+            lv1: "Increase own Magic Defense by 10% + Poison Resistance by 30%",
+            lv5: "Increase own Magic Defense by 10% + Poison Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Cheer",
+                desc: "Recovers 1 ally Health by 20% + increase Defense by 20% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Greater Healing Arts [Ex. Healing]",
+                desc: "Recovers 20% of Health to all allies + removes Poison and Paralysis effect",
             },
         },
     },
@@ -489,23 +488,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Towards a New Land",
+            lv1: "Increase Wind type units Attack by 5%",
+            lv6: "Increase Wind type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Attack UP",
+            lv1: "Increase own Magic Attack by 10% + Rage Resistance by 30%",
+            lv5: "Increase own Magic Attack by 20% + Rage Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Sonic Boom",
+                desc: "Deals 150% Magic Damage to 1 enemy + increase own Speed by 3 (3 trurns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Rending Wind [Wind Slice]",
+                desc: "Deals 100% Magic Damage to all enemies + lowers Magic Attack by 20% (3 turns)",
             },
         },
     },
@@ -531,23 +530,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Home Tutor",
+            lv1: "Increase Wind type units Attack by 5%",
+            lv6: "Increase Wind type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Attack UP",
+            lv1: "Increase Rudeus' Attack by 15% + Burn Resistance by 30%",
+            lv5: "Increase Rudeus' Attack by 25% + Burn Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Sonic Boom",
+                desc: "Deals 150% Magic Damage to 1 enemy + increase own Speed by 3 (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Greater Healing Arts [Ex. Healing]",
+                desc: "Recovers all allies Health by 20% + removes Poison and Paralysis effect",
             },
         },
     },
@@ -573,23 +572,24 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Investigative Journey",
+            lv1: "Increase Wind type units Crit Rate by 5%",
+            lv6: "Increase Wind type units Crit Rate by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Attack UP",
+            lv1: "Increase own Magic Attack by 10% + Burn Resistance by 30%",
+            lv5: "Increase own Magic Attack by 20% + Burn Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Blast",
+                desc:
+                    "Nullifies Magic Damage effect to 1 ally (1 time) + 80% Attack if ally is a Wind type unit (3 turns) + increase Speed by 3 (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Rending Wind [Wind Slice]",
+                desc: "Deals 100% Magic Damage to all enemies + lowers Magic Attack by 20% (3 turns)",
             },
         },
     },
@@ -615,23 +615,24 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Healer of Charity",
+            lv1: "Increase Wind type units Defense by 5%",
+            lv6: "Increase Wind type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Paralysis Resistance UP	",
+            lv1: "Increase own Paralysis Resistance by 30% + Poison Resistance by 30%",
+            lv5: "Increase own Paralysis Resistance by 50% + Poison Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Anti-Poison",
+                desc:
+                    "Recovers 1 ally Health by 20% + removes Poison and Paralysis effect + prevents Poison and Paralysis effect (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Greater Healing Arts [Ex. Healing]",
+                desc: "Recovers all allies Health by 20% + removes Poison and Paralysis effect",
             },
         },
     },
@@ -657,23 +658,24 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Familiar of a Hero",
+            lv1: "Increase Wind type units Crit Rate by 5%",
+            lv6: "Increase Wind type units Crit Rate by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Normal Attack UP",
+            lv1: "Increase own Normal Attack by 10% + Paralysis Resistance by 30%",
+            lv5: "Increase own Normal Attack by 20% + Paralysis Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Research",
+                desc: "Increase 1 ally Crit Rate by 40% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Light Speed Maneuver",
+                desc:
+                    "Increase own Speed by 6 (1 turn) + grants Pursuit (3 turns) + increase Crit Rate by 40% (3 turns)",
             },
         },
     },
@@ -699,23 +701,24 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Childhood Period",
+            lv1: "Increase Earth type units Attack by 5%",
+            lv6: "Increase Earth type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Attack UP",
+            lv1: "Increase own Magic Attack by 10% + Rage Resistance by 30%",
+            lv5: "Increase own Magic Attack by 20% + Rage Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Earth Pillar",
+                desc:
+                    "Deals 150% Magic Damage to 1 enemy + lowers Magic Defense by 30% (3 turns) if enemy is a Water type",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Magic Control",
+                desc: "Increases own Magic Attack by 100% (3 turns) + lowers Skill Cooldown by 20 seconds",
             },
         },
     },
@@ -741,23 +744,24 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Sleepy Mage",
+            lv1: "Increase Earth type units Crit Rate by 5%",
+            lv6: "Increase Earth type units Crit Rate by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Attack UP",
+            lv1: "Increase own Magic Attack by 10% + Burn Resistance by 30%",
+            lv5: "Increase own Magic Attack by 20% + Burn Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Earth Pillar",
+                desc:
+                    " - Deals 150% Magic Damage to 1 enemy + lowers Magic Defense by 30% (3 turns) if enemy is a Water type",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Earth Shell [Stone Cannon]",
+                desc: "Deals 100% Magic Damage to all enemies + lowers Speed by 3 (3 turns)",
             },
         },
     },
@@ -783,23 +787,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Bishounen?",
+            lv1: "Increase Earth type units Defense by 5%",
+            lv6: "Increase Earth type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Attack UP",
+            lv1: "Increase own Magic Attack by 10% + Paralysis Resistance by 30%",
+            lv5: "Increase own Magic Attack by 20% + Paralysis Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Cheer",
+                desc: "Recovers own Health by 20% + increase 1 ally Defense by 20% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Earth Shell [Stone Cannon]",
+                desc: "Deals 100% Magic Damage to all enemies + lowers Speed by 3 (3 turns)",
             },
         },
     },
@@ -825,23 +829,24 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Becoming Independent",
+            lv1: "Increase Earth type units Defense by 5%",
+            lv6: "Increase Earth type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Attack UP",
+            lv1: "Increase Rudeus' Attack by 15% + own Paralysis Resistance by 30%",
+            lv5: "Increase Rudeus' Attack by 25% + own Paralysis Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Earth Wall",
+                desc:
+                    " - Increase all allies Magic Defense by 30% (3 turns) + increase Defense by 20% if ally is a Earth unit (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Greater Healing Arts [Ex. Healing]",
+                desc: "Recovers all allies Health by 20% + removes Poison and Paralysis effect",
             },
         },
     },
@@ -867,23 +872,24 @@ const threeStarUnits = [
             def: "310",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Harsh, Large Mountain Summit",
+            lv1: "Increase Earth type units Defense by 5%",
+            lv6: "Increase Earth type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Defense UP",
+            lv1: "Increase own Magic Defense by 10% + Fear Resistance by 30%",
+            lv5: "Increase own Magic Defense by 20% + Fear Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Earth Wall",
+                desc:
+                    " - Increase Magic Defense of all allies by 30% (3 turns) + 20% Defense if ally is a Earth unit (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Earth Shell [Stone Cannon]",
+                desc: "Deals 100% Magic Damage to all enemies + lowers Speed by 3 (3 turns)",
             },
         },
     },
@@ -909,23 +915,23 @@ const threeStarUnits = [
             def: "150",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Daughter of House Boreas",
+            lv1: "Increase Self-Taught type units Health by 5%",
+            lv6: "Increase Self-Taught type units Health by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Attack UP",
+            lv1: "Increase own Sword Attack by 10% + Poison Resistance by 30%",
+            lv5: "Increase own Sword Attack by 20% + Poison Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Low Spirits",
+                desc: "Increase own Attack by 50% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Sword Slash",
+                desc: "Deals 190% Sword Damage to 1 enemy",
             },
         },
     },
@@ -951,23 +957,24 @@ const threeStarUnits = [
             def: "310",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "New Member",
+            lv1: "Increase Self-Taught type units Defense by 5%",
+            lv6: "Increase Self-Taught type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Humans Damage UP	",
+            lv1: "Increase damage against Humans by 20% + increase own Faint Resistance by 30%",
+            lv5: "Increase damage against Humans by 30% + increase own Faint Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Low Spirits",
+                desc: "Increase own Attack by 50% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Three Pronged Spear Attack",
+                desc:
+                    " - Deals 100% Sword Damage to 3 enemies. Chance to apply a buff where for the next 1 turn, when Ruijerd attacks, deal an additional instance of damage equal to 30% of Sword Skill Damage",
             },
         },
     },
@@ -993,23 +1000,23 @@ const threeStarUnits = [
             def: "310",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Warrior of the Superd Tribe",
+            lv1: "Increase Self-Taught type units Health by 5%",
+            lv6: "Increase Self-Taught type units Health by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Humans Damage UP",
+            lv1: "Increase damage against Humans by 20% + increase own Faint Resistance by 30%",
+            lv5: "Increase damage against Humans by 30% + increase own Faint Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Tempered Blow",
+                desc: "Deals 150% Sword Damage to 1 enemy + chance to inflict Fear to the target (2 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Superd Eyes",
+                desc: "Increase own Attack by 40% (3 turns) + 40% Defense (3 turns)				",
             },
         },
     },
@@ -1035,23 +1042,23 @@ const threeStarUnits = [
             def: "310",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "S Rank Adventurer",
+            lv1: "Increase Self-Taught type units Defense by 5%",
+            lv6: "Increase Self-Taught type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Defense UP",
+            lv1: "Increase own Sword Defense by 10% + Faint Resistance by 30%",
+            lv5: "Increase own Sword Defense by 20% + Faint Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Hate Control",
+                desc: "Provokes all enemies (3 turns) + increase own Defense by 10% (2 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Substitution",
+                desc: "Creates Barrier to self (2 turns) + 5% Auto Recovery (2 turns)",
             },
         },
     },
@@ -1077,23 +1084,24 @@ const threeStarUnits = [
             def: "310",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Investigative Journey",
+            lv1: "Increase Self-Taught type units Defense by 5%",
+            lv6: "Increase Self-Taught type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Defense UP",
+            lv1: "Increase own Sword Defense by 10% + Fear Resistance by 30%",
+            lv5: "Increase own Sword Defense by 20% + Fear Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Physical Shield",
+                desc: "Increase all allies Sword Defense by 40% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Drinking Contest",
+                desc:
+                    " - Provokes 1 enemy (3 turns) + increase own Defense by 40% (3 turns) + chance to inflict Sleep to self and enemy (2 turns)",
             },
         },
     },
@@ -1119,23 +1127,23 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Smug Face",
+            lv1: "Increase Self-Taught type units Defense by 5%",
+            lv6: "Increase Self-Taught type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Defense UP",
+            lv1: "Increase own Sword Defense by 10% + Blind Resistance by 30%",
+            lv5: "Increase own Sword Defense by 20% + Blind Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Concentrate",
+                desc: "Increase own Crit Rate by 50% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Listen Up",
+                desc: "Chance to inflict Rage to 1 enemy (3 turns) +  lowers Magic Attack by 10% (3 turns)",
             },
         },
     },
@@ -1161,23 +1169,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Elementary-Ranked Sword God",
+            lv1: "Increase Sword God type units Defense by 5%",
+            lv6: "Increase Sword God type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Magic Attack UP",
+            lv1: "Increase own Magic Attack by 10% + Rage Resistance by 30%",
+            lv5: "Increase own Magic Attack by 20% + Rage Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Low Spirits",
+                desc: "Increase own Attack by 50% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Earth Shell [Stone Cannon]",
+                desc: "100% Magic Damage to all enemies + lowers Speed by 3 (3 turns)",
             },
         },
     },
@@ -1203,23 +1211,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "The Boreas Bloodline",
+            lv1: "Increase Sword God type units Attack by 5%",
+            lv6: "Increase Sword God type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Crit Rate UP",
+            lv1: "Chance to raise own Crit Rate by 30% + Poison Resistance by 30%",
+            lv5: "Chance to raise own Crit Rate by 40% + Poison Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Boreas Punch",
+                desc: "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Onegai Nyan✰✰✰",
+                desc: "Deals 150% Sword Damage to 1 enemy + chance to inflict Paralyze to the target (2 turns)",
             },
         },
     },
@@ -1245,23 +1253,23 @@ const threeStarUnits = [
             def: "150",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Towards a New Land",
+            lv1: "Increase Sword God type units Health by 5%",
+            lv6: "Increase Sword God type units Health by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Attack UP",
+            lv1: "Increase own Sword Attack by 10% + Poison Resistance by 30%",
+            lv5: "Increase own Sword Attack by 20% + Poison Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Low Spirits",
+                desc: "Increase own Attack by 50% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Sword Slash",
+                desc: "Deals 190% Sword Damage to 1 enemy",
             },
         },
     },
@@ -1287,23 +1295,23 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Spoiled Brat",
+            lv1: "Increase Sword God type units Attack by 5%",
+            lv6: "Increase Sword God type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Attack UP",
+            lv1: "Increase own Sword Attack by 10% + Rage Resistance by 30%",
+            lv5: "Increase own Sword Attack by 20% + Rage Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Low Spirits",
+                desc: "Increase own Attack by 50% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Rapid Blade",
+                desc: "Deals 190% Sword Damage to 1 enemy",
             },
         },
     },
@@ -1329,23 +1337,24 @@ const threeStarUnits = [
             def: "150",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Eyepatched Swordsman",
+            lv1: "Increase Sword God type units Attack by 5%",
+            lv6: "Increase Sword God type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Attack UP",
+            lv1: "Increase own Sword Attack by 10% + Fear Resistance by 30%",
+            lv5: "Increase own Sword Attack by 20% + Fear Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Nuki-Uchi [Early Advantage]",
+                desc: "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Magic Power Eye Release",
+                desc:
+                    " - Increase own Sword Attack by 100% (3 turns) + lowers Skill Cooldown by 10 seconds + recovers from Blind",
             },
         },
     },
@@ -1371,23 +1380,23 @@ const threeStarUnits = [
             def: "150",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "My Favourite Clothes",
+            lv1: "Increase North God type units Attack by 5%",
+            lv6: "Increase North God type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Attack UP",
+            lv1: "Lv.1- Increase own Sword Attack by 10% + Poison Resistance by 30%",
+            lv5: "Increase own Sword Attack by 20% + Poison Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Nuki-Uchi [Early Advantage]",
+                desc: "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Onegai Nyan✰✰✰",
+                desc: "Deals 150% Sword Damage to 1 enemy + chance to Paralyze the target (2 turns)",
             },
         },
     },
@@ -1413,23 +1422,23 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Genius Swordsman",
+            lv1: "Increase North God type units Health by 5%",
+            lv6: "Increase North God type units Health by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Attack UP",
+            lv1: "Increase own Sword Attack by 10% + Rage Resistance by 30%",
+            lv5: "Increase own Sword Attack by 20% + Rage Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Nuki-Uchi [Early Advantage]",
+                desc: "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Rapid Blade",
+                desc: "Deals 190% Sword Damage to 1 enemy",
             },
         },
     },
@@ -1455,23 +1464,24 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Dagger User",
+            lv1: "Increase North God type units Attack by 5%",
+            lv6: "Increase North God type units Attack by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Normal Attack UP",
+            lv1: "Increase own Normal Attack by 10% + Paralysis Resistance by 30%",
+            lv5: "Increase own Normal Attack by 20% + Paralysis Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Research",
+                desc: "Increase 1 ally Crit Rate by 40% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Light Speed Maneuver",
+                desc:
+                    " - Increase own Speed by 6 (1 turn) + grants Pursuit (3 turns) + increase Crit Rate by 40% (3 turns)",
             },
         },
     },
@@ -1497,23 +1507,23 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Cheapskate",
+            lv1: "Increase North God type units Defense by 5%",
+            lv6: "Increase North God type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Defense UP",
+            lv1: "Increase own Sword Defense by 10% + Blind Resistance by 30%",
+            lv5: "Increase own Sword Defense by 20% + Blind Resistance by 50%			",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Sneaky",
+                desc: "Inflicts Raid to self + 150% Sword Damage to 1 enemy",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Listen Up",
+                desc: "Chance to inflict Rage to 1 enemy (3 turns) +  lowers Magic Attack by 10% (3 turns)",
             },
         },
     },
@@ -1539,23 +1549,23 @@ const threeStarUnits = [
             def: "130",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Overflowing with Talent",
+            lv1: "Increase Water God type units Defense by 5%",
+            lv6: "Increase Water God type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Defense UP",
+            lv1: "Increase own Sword Defense by 10% + Rage Resistance by 30%",
+            lv5: "Increase own Sword Defense by 20% + Rage Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Protective Stance",
+                desc: "Creates Barrier to self (2 turns) + increase Sword Defense by 10% (2 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Water Cannon [Splash Flow]",
+                desc: "Deals 100% Magic Damage to 3 enemies + inflicts Stun to 1 enemy of Sword God type (2 turns)",
             },
         },
     },
@@ -1581,23 +1591,24 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Buena Village Knight",
+            lv1: "Increase Water God type units Health by 5%",
+            lv6: "Increase Water God type units Health by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Attack UP",
+            lv1: "Increase own Sword Attack by 10% + Rage Resistance by 30%",
+            lv5: "Increase own Sword Attack by 20% + Rage Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Protective Blade",
+                desc:
+                    " - Deals 70% Sword Damage to 1 enemy + inflicts Provoke (3 turns) + increase own Sword Defense by 30% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Water God Style",
+                desc: "Deals 150% Sword Damage to 1 enemy + nullifies Sword Damage to self (1 time)",
             },
         },
     },
@@ -1623,23 +1634,23 @@ const threeStarUnits = [
             def: "210",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Skilled Maid",
+            lv1: "Increase Water God type units Defense by 5%",
+            lv6: "Increase Water God type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Defense UP",
+            lv1: "Increase own Sword Defense by 10% + Burn Resistance by 30%",
+            lv5: "Increase own Sword Defense by 20% + Burn Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Concentrate",
+                desc: "Increase own Crit Rate by 50% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Repulsed",
+                desc: "Lowers all enemies Sword Attack by 20% (3 turns) + reduces Buff turns of 1 enemy by 3 turns",
             },
         },
     },
@@ -1665,23 +1676,23 @@ const threeStarUnits = [
             def: "310",
         },
         leaderSkill: {
-            title: "",
-            lv1: "",
-            lv6: "",
+            title: "Investigative Journey",
+            lv1: "Increase Water God type units Defense by 5%",
+            lv6: "Increase Water God type units Defense by 10%",
         },
         passiveSkill: {
-            title: "",
-            lv1: "",
-            lv5: "",
+            title: "Sword Defense UP",
+            lv1: "Increase own Sword Defense by 10% + Faint Resistance by 30%",
+            lv5: "Increase own Sword Defense by 20% + Faint Resistance by 50%",
         },
         activeSkill: {
             one: {
-                title: "-",
-                description: "",
+                title: "Concentrate",
+                desc: "Increase own Crit Rate by 60% (3 turns)",
             },
             two: {
-                title: "-",
-                description: "",
+                title: "Substitution",
+                desc: "Creates Barrier to self (2 turns) + 5% Auto Recovery (2 turns)",
             },
         },
     },

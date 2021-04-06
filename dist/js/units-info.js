@@ -31,36 +31,46 @@ jQuery.each(units, function () {
 function unitsAppend(units) {
     let rarity = ``;
     for (var i = 1; i <= units.rarity; i++) {
-        rarity += `<img class="inline-block w-4" src="./dist/img/stars/1.png" alt="Star">`;
+        // rarity += `<img class="inline-block w-4" src="./dist/img/stars/1.png" alt="Star">`;
+        rarity += `⭐`;
     }
 
     $("#units-info").append(`
         <img class="mb-2 md:col-start-2 md:col-span-3 bg-white shadow-sm rounded-xl" src="./dist/img/units-cover/${units.thumb}" alt="${units.name}">
-        <div class="px-4 py-2 md:col-start-2 md:col-span-3 bg-white shadow-sm rounded-xl">
+        <div class="p-4 md:col-start-2 md:col-span-3 bg-white shadow-sm rounded-xl">
             <div class="flex items-center">
                 <div class="flex-shrink-0">
-                    <img class="mx-auto h-36 rounded-2xl md:mx-0 sm:flex-shrink-0" src="./dist/img/units/${units.thumb}" alt="${units.name}">
+                    <img class="h-24 rounded-2xl md:mx-0 sm:flex-shrink-0" src="./dist/img/units/${units.thumb}" alt="${units.name}">
                 </div>
 
                 <div class="pl-2">
-                    <div class="uppercase tracking-widest text-xs text-amber-500 font-semibold">${units.title}</div>
+                    <div class="uppercase tracking-wider text-xs text-amber-500 font-semibold">${units.title}</div>
                     <a class="text-xl text-amber-900">${units.name}</a>
-                    <p class="relative mt-1 text-sm text-gray-500">
-                        <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">
-                            ${units.tier.rank}
+                    <p class="relative text-sm text-gray-500">
+                        <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
+                            ${rarity}
                         </div>
-                        <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">
-                            <img class="inline-block w-4" src="./dist/img/elements/${units.element}.png" alt="${units.element}">
+                        <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
+                            <!-- <img class="inline-block w-4" src="./dist/img/elements/${units.element}.png" alt="${units.element}"> -->
                             ${units.element}
                         </div>
-                        <div class="inline-block text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">
-                            ${rarity}
+                        <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
+                            ${units.tier.rank} Tier
                         </div>
                     </p>
                 </div>
             </div>
 
             <div>
+                <div class="mt-4">
+                    <p class="text-xs text-gray-500 font-semibold">
+                        Why ${units.tier.rank} Tier?
+                        <p class="text-base">
+                            ${units.tier.desc}
+                        </p>
+                    </p>
+                </div>  
+
                 <div class="mt-4">
                     <p class="text-xs text-gray-500 font-semibold">
                         Base Stats
@@ -137,13 +147,13 @@ function unitsAppend(units) {
                             <div class="inline-block text-center text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">
                                 ${units.activeSkill.one.title}
                             </div> 
-                            ${units.activeSkill.one.description}
+                            ${units.activeSkill.one.desc}
                         </p>
                         <p class="mt-1 text-md">
                             <div class="inline-block text-center text-sm bg-gray-700 text-white py-0.5 px-2.5 rounded-lg">
                                 ${units.activeSkill.two.title}
                             </div> 
-                            ${units.activeSkill.two.description}
+                            ${units.activeSkill.two.desc}
                         </p>
                     </p>
                 </div>
