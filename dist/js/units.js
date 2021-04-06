@@ -6,32 +6,32 @@ const elementSearch = urlParams.get("element");
 
 $(document).ready(function () {
     $.getJSON("./dist/data/units.json", function (data) {
-        $.each(data, function (_, value) {
+        $.each(data, function (key, value) {
             if (typeof nameSearch === `string`) {
                 if (nameSearch.toLowerCase() === value.name.toLowerCase()) {
                     $("#searchResult").text(`Showing all ${value.name} units`);
-                    unitsTemplateList(value);
+                    unitsTemplateList(key, value);
                 }
             } else if (typeof raritySearch === `string`) {
                 if (raritySearch === value.rarity) {
                     $("#searchResult").text(`Showing all ${raritySearch}-star units`);
-                    unitsTemplateList(value);
+                    unitsTemplateList(key, value);
                 }
             } else if (typeof elementSearch === `string`) {
                 if (elementSearch.toLowerCase() === value.element.toLowerCase()) {
                     $("#searchResult").text(`Showing all ${elementSearch} type units`);
-                    unitsTemplateList(value);
+                    unitsTemplateList(key, value);
                 }
             } else {
                 if (value.rarity === `3`) {
                     $("#searchResult").text("Showing all 3-star units");
-                    unitsTemplateList(value);
+                    unitsTemplateList(key, value);
                 }
             }
         });
     });
 
-    function unitsTemplateList(units) {
+    function unitsTemplateList(id, units) {
         let rarity = ``;
         for (var i = 1; i <= units.rarity; i++) rarity += `⭐`;
 
@@ -44,7 +44,7 @@ $(document).ready(function () {
                     </div>
                     <div class="pl-2">
                         <div class="uppercase tracking-wider text-xs text-amber-500 font-semibold">${units.title}</div>
-                        <a href="./character.html?name=${units.name}&rarity=${units.rarity}&element=${units.element}&title=${units.title}" class="text-xl text-amber-900 hover:underline">${units.name}</a>
+                        <a href="./character.html?id=${id}" class="text-xl text-amber-900 hover:underline">${units.name}</a>
                         <p class="relative mt-1 text-sm text-gray-500">
                             <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
                                 ${rarity}

@@ -1,14 +1,11 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const nameSearch = urlParams.get("name");
-const raritySearch = urlParams.get("rarity");
-const elementSearch = urlParams.get("element");
-const titleSearch = urlParams.get("title");
+const idSearch = urlParams.get("id");
 
 $(document).ready(function () {
     $.getJSON("./dist/data/units.json", function (data) {
-        $.each(data, function (_, value) {
-            if (validateSearch(value)) {
+        $.each(data, function (key, value) {
+            if (key === idSearch) {
                 $.getJSON("./dist/data/settings.json", function (data) {
                     $.each(data, function (_, title) {
                         $(document).prop("title", `${value.name} | ${title}`);
@@ -20,19 +17,6 @@ $(document).ready(function () {
             }
         });
     });
-
-    function validateSearch(value) {
-        if (
-            raritySearch === value.rarity &&
-            nameSearch.toLowerCase() === value.name.toLowerCase() &&
-            elementSearch.toLowerCase() === value.element.toLowerCase() &&
-            titleSearch.toLowerCase() === value.title.toLowerCase()
-        ) {
-            return true;
-        }
-
-        return false;
-    }
 
     function unitsTemplateSingle(units) {
         let rarity = ``;
