@@ -1,0 +1,46 @@
+{
+    "1": {
+        "thumbnail": "",
+        "name": "",
+        "location": "",
+        "passive": "",
+        "level": {
+            "min": "1",
+            "max": "20"
+        },
+        "health": {
+            "levelMin": "",
+            "levelMax": ""
+        },
+        "attack": {
+            "levelMin": "",
+            "levelMax": ""
+        },
+        "defense": {
+            "levelMin": "",
+            "levelMax": ""
+        }
+    },
+    "2": {
+        "thumbnail": "",
+        "name": "",
+        "location": "",
+        "passive": "",
+        "level": {
+            "min": "1",
+            "max": "20"
+        },
+        "health": {
+            "levelMin": "",
+            "levelMax": ""
+        },
+        "attack": {
+            "levelMin": "",
+            "levelMax": ""
+        },
+        "defense": {
+            "levelMin": "",
+            "levelMax": ""
+        }
+    }
+}

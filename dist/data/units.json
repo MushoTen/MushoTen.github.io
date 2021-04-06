@@ -280,7 +280,7 @@
         "passiveSkill": {
             "title": "Magic Attack UP",
             "lv1": "Increase own Magic Attack by 10% + Rage Resistance by 30%",
-            "lv5": "lvl  6 - Increase own Magic Attack by 20% + Rage Resistance by 50%"
+            "lv5": "Increase own Magic Attack by 20% + Rage Resistance by 50%"
         },
         "activeSkill": {
             "one": {
@@ -747,7 +747,7 @@
         "activeSkill": {
             "one": {
                 "title": "Earth Pillar",
-                "desc": " - Deals 150% Magic Damage to 1 enemy + lowers Magic Defense by 30% (3 turns) if enemy is a Water type"
+                "desc": "Deals 150% Magic Damage to 1 enemy + lowers Magic Defense by 30% (3 turns) if enemy is a Water type"
             },
             "two": {
                 "title": "Earth Shell [Stone Cannon]",
@@ -831,7 +831,7 @@
         "activeSkill": {
             "one": {
                 "title": "Earth Wall",
-                "desc": " - Increase all allies Magic Defense by 30% (3 turns) + increase Defense by 20% if ally is a Earth unit (3 turns)"
+                "desc": "Increase all allies Magic Defense by 30% (3 turns) + increase Defense by 20% if ally is a Earth unit (3 turns)"
             },
             "two": {
                 "title": "Greater Healing Arts [Ex. Healing]",
@@ -873,7 +873,7 @@
         "activeSkill": {
             "one": {
                 "title": "Earth Wall",
-                "desc": " - Increase Magic Defense of all allies by 30% (3 turns) + 20% Defense if ally is a Earth unit (3 turns)"
+                "desc": "Increase Magic Defense of all allies by 30% (3 turns) + 20% Defense if ally is a Earth unit (3 turns)"
             },
             "two": {
                 "title": "Earth Shell [Stone Cannon]",
@@ -961,7 +961,7 @@
             },
             "two": {
                 "title": "Three Pronged Spear Attack",
-                "desc": " - Deals 100% Sword Damage to 3 enemies. Chance to apply a buff where for the next 1 turn, when Ruijerd attacks, deal an additional instance of damage equal to 30% of Sword Skill Damage"
+                "desc": "Deals 100% Sword Damage to 3 enemies. Chance to apply a buff where for the next 1 turn, when Ruijerd attacks, deal an additional instance of damage equal to 30% of Sword Skill Damage"
             }
         }
     },
@@ -1339,7 +1339,7 @@
             },
             "two": {
                 "title": "Magic Power Eye Release",
-                "desc": " - Increase own Sword Attack by 100% (3 turns) + lowers Skill Cooldown by 10 seconds + recovers from Blind"
+                "desc": "Increase own Sword Attack by 100% (3 turns) + lowers Skill Cooldown by 10 seconds + recovers from Blind"
             }
         }
     },
@@ -1465,7 +1465,7 @@
             },
             "two": {
                 "title": "Light Speed Maneuver",
-                "desc": " - Increase own Speed by 6 (1 turn) + grants Pursuit (3 turns) + increase Crit Rate by 40% (3 turns)"
+                "desc": "Increase own Speed by 6 (1 turn) + grants Pursuit (3 turns) + increase Crit Rate by 40% (3 turns)"
             }
         }
     },

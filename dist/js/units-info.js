@@ -9,6 +9,12 @@ $(document).ready(function () {
     $.getJSON("./dist/data/units.json", function (data) {
         $.each(data, function (_, value) {
             if (validateSearch(value)) {
+                $.getJSON("./dist/data/settings.json", function (data) {
+                    $.each(data, function (_, title) {
+                        $(document).prop("title", `${value.name} | ${title}`);
+                    });
+                });
+
                 unitsTemplateSingle(value);
                 return false;
             }
@@ -30,11 +36,12 @@ $(document).ready(function () {
 
     function unitsTemplateSingle(units) {
         let rarity = ``;
+        let unitsCover = typeof units.altArt === `string` ? units.altArt : units.thumb;
         for (var i = 1; i <= units.rarity; i++) rarity += `⭐`;
 
         $("#units-info").append(`
             <div class="md:col-start-2 md:col-span-3 bg-white shadow-sm rounded-xl">
-                <img class="shadow-sm rounded-tl-xl rounded-tr-xl" src="./dist/img/units-cover/${units.thumb}" alt="${units.name}">
+                <img class="shadow-sm rounded-tl-xl rounded-tr-xl" src="./dist/img/units-cover/${unitsCover}" alt="${units.name}">
     
                 <div class="p-4">
                     <div class="flex items-center">

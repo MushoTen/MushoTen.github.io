@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Units | Mushoku Tensei: Game ni Nattemo Honki Dasu</title>
+    <title>Units</title>
     <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="./dist/css/mushoten.css">
 </head>
 
 <body class="bg-gray-200">
-    <div id="include-nav"></div>
+    <div class="sticky w-full z-50 top-0" id="include-nav"></div>
 
     <div class="max-w-7xl mx-auto mt-4 px-2 sm:px-6 lg:lx-8 mb-2">
         <div class="bg-amber-50 shadow-sm mb-4 rounded-lg py-2 px-4 text-dark text-sm">
             <ul class="pl-4 list-disc" id="alerts"></ul>
         </div>
 
-        <div class="max-w-7xl block mb-2 sm:float-right">
-            <div class="relative block text-center text-sm text-gray-500 sm:inline-block mr-2" id="searchResult"></div>
-            <div class="relative mt-2 block mx-auto sm:inline-block sm:mt-0">
+        <div class="relative max-w-7xl block mb-2 sm:float-right">
+            <div class="block text-center text-sm text-gray-500 sm:inline-block mr-2" id="searchResult"></div>
+            <div class="mt-2 block mx-auto sm:inline-block sm:mt-0">
                 <div>
                     <button type="button"
                         class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
@@ -49,32 +49,7 @@
                             class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
                             role="sortitem">5-star</a>
                     </div>
-                    <div class="py-1" role="none">
-                        <a href="?element=Fire"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">Fire</a>
-                        <a href="?element=Water"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">Water</a>
-                        <a href="?element=Wind"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">Wind</a>
-                        <a href="?element=Earth"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">Earth</a>
-                        <a href="?element=Self-Taught"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">Self-Taught</a>
-                        <a href="?element=Sword God"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">Sword God</a>
-                        <a href="?element=North God"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">North God</a>
-                        <a href="?element=Water God"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">Water God</a>
-                    </div>
+                    <div class="py-1" role="none" id="sort-elements"></div>
                 </div>
             </div>
         </div>
