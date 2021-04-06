@@ -15,17 +15,18 @@
     <div id="include-nav"></div>
 
     <div class="max-w-7xl mx-auto mt-4 px-2 sm:px-6 lg:lx-8 mb-2">
-        <div id="include-alert"></div>
+        <div class="bg-amber-50 shadow-sm mb-4 rounded-lg py-2 px-4 text-dark text-sm">
+            <ul class="pl-4 list-disc" id="alerts"></ul>
+        </div>
 
         <div class="max-w-7xl block mb-2 sm:float-right">
-            <div class="relative block text-center text-gray-500 sm:inline-block mr-2" id="searchResult"></div>
+            <div class="relative block text-center text-sm text-gray-500 sm:inline-block mr-2" id="searchResult"></div>
             <div class="relative mt-2 block mx-auto sm:inline-block sm:mt-0">
                 <div>
                     <button type="button"
                         class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
                         id="sort" aria-expanded="true" aria-haspopup="true">
                         Sort
-                        <!-- Heroicon name: solid/chevron-down -->
                         <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                             fill="currentColor" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -35,16 +36,6 @@
                     </button>
                 </div>
 
-                <!--
-          Dropdown menu, show/hide based on menu state.
-      
-          Entering: "transition ease-out duration-100"
-            From: "transform opacity-0 scale-95"
-            To: "transform opacity-100 scale-100"
-          Leaving: "transition ease-in duration-75"
-            From: "transform opacity-100 scale-100"
-            To: "transform opacity-0 scale-95"
-        -->
                 <div class="hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-md bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none"
                     role="sort" aria-orientation="vertical" aria-labelledby="sort" id="sort-options">
                     <div class="py-1" role="none">
@@ -91,14 +82,12 @@
         <div class="clear-right grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2" id="units"></div>
     </div>
 
-    <footer class="text-center py-2">
-        <p class="text-sm text-gray-500">Mushoku Tensei Game Journalist</p>
-    </footer>
+    <div id="include-footer"></div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./dist/js/showdown.min.js"></script>
     <script src="./dist/js/mushoten.js"></script>
-    <script src="./dist/data/three-star-units.js"></script>
     <script src="./dist/js/units.js"></script>
 </body>
 
