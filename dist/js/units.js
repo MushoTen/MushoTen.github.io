@@ -37,7 +37,7 @@ $(document).ready(function () {
 
         $("#units").append(`
             <div class="bg-white shadow-sm rounded-xl">
-                <div class="p-4 flex items-center">
+                <div class="p-2 md:p-4 flex items-center">
                     <div class="flex-shrink-0">
                         <img class="mx-auto h-24 rounded-2xl md:mx-0 sm:flex-shrink-0"
                             src="./dist/img/units/${units.thumb}" alt="${units.name}">

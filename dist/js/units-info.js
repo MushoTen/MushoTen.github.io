@@ -26,8 +26,8 @@ $(document).ready(function () {
         $("#units-info").append(`
             <div class="md:col-start-2 md:col-span-3 bg-white shadow-sm rounded-xl">
                 <img class="shadow-sm rounded-tl-xl rounded-tr-xl" src="./dist/img/units-cover/${unitsCover}" alt="${units.name}">
-    
-                <div class="p-4">
+
+                <div class="p-2 md:p-4">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
                             <img class="h-24 rounded-2xl md:mx-0 sm:flex-shrink-0" src="./dist/img/units/${units.thumb}" alt="${units.name}">
