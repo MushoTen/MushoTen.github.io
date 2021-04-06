@@ -1371,7 +1371,7 @@
         },
         "passiveSkill": {
             "title": "Sword Attack UP",
-            "lv1": "Lv.1- Increase own Sword Attack by 10% + Poison Resistance by 30%",
+            "lv1": "Increase own Sword Attack by 10% + Poison Resistance by 30%",
             "lv5": "Increase own Sword Attack by 20% + Poison Resistance by 50%"
         },
         "activeSkill": {
@@ -1676,6 +1676,930 @@
             "two": {
                 "title": "Substitution",
                 "desc": "Creates Barrier to self (2 turns) + 5% Auto Recovery (2 turns)"
+            }
+        }
+    },
+    "41": {
+        "thumb": "cc_0002004_01.png",
+        "title": "Teacher's Night Lessons",
+        "name": "Roxy",
+        "rarity": "4",
+        "element": "Fire",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "700",
+            "atk": "800",
+            "def": "200",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1200",
+            "atk": "1400",
+            "def": "300"
+        },
+        "leaderSkill": {
+            "title": "Teacher's Night Lessons",
+            "lv1": "Increase Fire type units Attack by 5%",
+            "lv6": "Increase Fire type units Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 15% + Burn Resistance by 40%",
+            "lv5": "Increase own Magic Attack by 25% + Burn Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Fireball",
+                "desc": "Deals 150% Magic Damage + chance to inflict Burn to 1 enemy (1 turn)"
+            },
+            "two": {
+                "title": "Great Fireball [Ex. Flame]",
+                "desc": "Deals 200% Magic Damage to 1 enemy"
+            }
+        }
+    },
+    "42": {
+        "thumb": "cc_0017002_01.png",
+        "title": "S Ranked Adventurer",
+        "name": "Talhand",
+        "rarity": "4",
+        "element": "Fire",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "1500",
+            "atk": "700",
+            "def": "500",
+            "spd": "9"
+        },
+        "mlb": {
+            "hp": "2500",
+            "atk": "1200",
+            "def": "900"
+        },
+        "leaderSkill": {
+            "title": "S Ranked Adventurer",
+            "lv1": "Increase Fire type units Defense by 5%",
+            "lv6": "Increase Fire type units Defense by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Defense UP",
+            "lv1": "Increase own Magic Defense by 15% + Fear Resistance by 40%",
+            "lv5": "Increase own Magic Defense by 25% + Fear Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Heat Island",
+                "desc": "Increase all allies Magic Attack by 30% (3 turns) + 15% Attack if ally is a Fire type unit (3 turns)"
+            },
+            "two": {
+                "title": "Drinking Contest",
+                "desc": "Provokes 1 enemy (3 turns) + increase own Defense by 40% (3 turns) + chance to inflict Sleep to self and enemy (2 turns)"
+            }
+        }
+    },
+    "43": {
+        "thumb": "cc_0003002_01.png",
+        "title": "Crybaby",
+        "name": "Sylphiette",
+        "rarity": "4",
+        "element": "Water",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "700",
+            "atk": "700",
+            "def": "200",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1200",
+            "atk": "1200",
+            "def": "300"
+        },
+        "leaderSkill": {
+            "title": "Crybaby",
+            "lv1": "Increase Water type units Defense by 5%",
+            "lv6": "Increase Water type units Defense by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 15% + Paralysis Resistance by 40%",
+            "lv5": "Increase own Magic Attack by 25% + Paralysis Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Waterball",
+                "desc": "Deals 150% Magic Damage to 1 enemy + lowers Crit Rate by 10% (3 turns)"
+            },
+            "two": {
+                "title": "Water Cannon [Splash Flow]",
+                "desc": "Deals 110% Magic Damage to 3 enemies + inflicts Stun to 1 enemy of a Fire type (2 turns)"
+            }
+        }
+    },
+    "44": {
+        "thumb": "cc_0002005_01.png",
+        "title": "Water King Class Magician",
+        "name": "Roxy",
+        "rarity": "4",
+        "element": "Water",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "700",
+            "atk": "1000",
+            "def": "200",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1200",
+            "atk": "1500",
+            "def": "300"
+        },
+        "leaderSkill": {
+            "title": "Water King Class Magician",
+            "lv1": "Increase Water type units Health by 5%",
+            "lv6": "Increase Water type units Health by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 15% + Burn Resistance by 40%",
+            "lv5": "Increase own Magic Attack by 25% + Burn Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Icicle Field",
+                "desc": "Increase all allies Crit Dmg by 40% + increase Crit Rate by 25% if ally is a Water type unit (3 turns)"
+            },
+            "two": {
+                "title": "Frozen Ice Spears [Blizzard Storm]",
+                "desc": "Deals 130% Magic Damage to 2 enemies + chance to inflict Sleep to the targets (2 turns)"
+            }
+        }
+    },
+    "45": {
+        "thumb": "cc_0003003_01.png",
+        "title": "Healer in Training",
+        "name": "Sylphiette",
+        "rarity": "4",
+        "element": "Wind",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "700",
+            "atk": "800",
+            "def": "200",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1200",
+            "atk": "1400",
+            "def": "300"
+        },
+        "leaderSkill": {
+            "title": "Healer in Training",
+            "lv1": "Increase Wind type units Defense by 5%",
+            "lv6": "Increase Wind type units Defense by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Defense UP",
+            "lv1": "Increase own Magic Defense by 15% + Paralysis Resistance by 40%",
+            "lv5": "Increase own Magic Defense by 25% + Paralysis Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Blast",
+                "desc": "Nullifies Magic Damage effect to 1 ally (1 time) + 80% Attack if ally is a Wind type unit (3 turns) + increase Speed by 3 (3 turns)"
+            },
+            "two": {
+                "title": "Greater Healing Arts [Ex. Healing]",
+                "desc": "Recovers 20% of HP to all allies and removes poison + removes paralysis"
+            }
+        }
+    },
+    "46": {
+        "thumb": "cc_0001003_01.png",
+        "title": "Home Tutor",
+        "name": "Rudeus",
+        "rarity": "4",
+        "element": "Earth",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "700",
+            "atk": "800",
+            "def": "200",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1200",
+            "atk": "1400",
+            "def": "300"
+        },
+        "leaderSkill": {
+            "title": "Home Tutor",
+            "lv1": "Increase Earth type units Defense by 5%",
+            "lv6": "Increase Earth type units Defense by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 15% + Rage Resistance by 40%",
+            "lv5": "Increase own Magic Attack by 25% + Rage Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Earth Wall",
+                "desc": "Increase all allies Magic Defense by 30% (3 turns) + 20% Defense if ally is a Earth type unit (3 turns)"
+            },
+            "two": {
+                "title": "Earth Shell [Stone Cannon]",
+                "desc": "Deals 110% Magic Damage to all enemies + lowers Speed by 3 (3 turns)"
+            }
+        }
+    },
+    "47": {
+        "thumb": "cc_0001006_01.png",
+        "title": "Adventurer",
+        "name": "Rudeus",
+        "rarity": "4",
+        "element": "Earth",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "700",
+            "atk": "1000",
+            "def": "200",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1200",
+            "atk": "1500",
+            "def": "300"
+        },
+        "leaderSkill": {
+            "title": "Adventurer",
+            "lv1": "Increase Earth type units Attack by 5%",
+            "lv6": "Increase Earth type units Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 15% + Rage Resistance by 40%",
+            "lv5": "Increase own Magic Attack by 25% + Rage Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Earth Pillar",
+                "desc": "Deals 150% Magic Damage to 1 enemy + lowers Magic Defense by 30% if enemy is a Water type (3 turns)"
+            },
+            "two": {
+                "title": "Earth Shell [Stone Cannon]",
+                "desc": "Deals 110% Magic Damage to all enemies + lowers Speed by 3 (3 turns)"
+            }
+        }
+    },
+    "48": {
+        "thumb": "cc_0015001_01.png",
+        "title": "From a Hated Race",
+        "name": "Ruijerd",
+        "rarity": "4",
+        "element": "Self-Taught",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "1500",
+            "atk": "800",
+            "def": "500",
+            "spd": "9"
+        },
+        "mlb": {
+            "hp": "2500",
+            "atk": "1300",
+            "def": "900"
+        },
+        "leaderSkill": {
+            "title": "From a Hated Race",
+            "lv1": "Increase Self-Taught type units Health by 5%",
+            "lv6": "Increase Self-Taught type units Health by 10%"
+        },
+        "passiveSkill": {
+            "title": "Humans Damage UP",
+            "lv1": "Increase damage against Humans by 25% + increase own Faint Resistance by 40%",
+            "lv5": "Increase damage against Humans by 35% + increase own Faint Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Tempered Blow",
+                "desc": "Deals 150% Sword Damage to 1 enemy + chance to inflict Fear to the target (2 turns)"
+            },
+            "two": {
+                "title": "Three Pronged Spear Attack",
+                "desc": "Deals 110% Sword Damage to 3 enemies. Chance to apply a buff where for the next 1 turn, when Ruijerd attacks, deal an additional instance of damage equal to 30% of Sword Skill Damage."
+            }
+        }
+    },
+    "49": {
+        "thumb": "cc_0004003_01.png",
+        "title": "Adventurer",
+        "name": "Eris",
+        "rarity": "4",
+        "element": "Self-Taught",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "900",
+            "atk": "600",
+            "def": "300",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1700",
+            "atk": "1200",
+            "def": "600"
+        },
+        "leaderSkill": {
+            "title": "Adventurer",
+            "lv1": "Increase Self-Taught type units Attack by 5%",
+            "lv6": "Increase Self-Taught type units Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Sword Attack UP",
+            "lv1": "Increase own Sword Attack by 15% + Poison Resistance by 40%",
+            "lv5": "Increase own Sword Attack by 25% + Poison Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Nuki-Uchi [Early Advantage]",
+                "desc": "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)"
+            },
+            "two": {
+                "title": "Sword Slash",
+                "desc": "Deals 200% Sword Damage to 1 enemy"
+            }
+        }
+    },
+    "50": {
+        "thumb": "cc_0010004_01.png",
+        "title": "Boreas Family Sword Instructor",
+        "name": "Ghislaine",
+        "rarity": "4",
+        "element": "Sword God",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "1500",
+            "atk": "800",
+            "def": "300",
+            "spd": "15"
+        },
+        "mlb": {
+            "hp": "2500",
+            "atk": "1300",
+            "def": "600"
+        },
+        "leaderSkill": {
+            "title": "Boreas Family Sword Instructor",
+            "lv1": "Increase Sword God type units Health by 5%",
+            "lv6": "Increase Sword God type units Health by 10%"
+        },
+        "passiveSkill": {
+            "title": "Sword Attack UP",
+            "lv1": "Increase own Sword Attack by 15% + Fear Resistance by 40%",
+            "lv5": "Increase own Sword Attack by 25% + Fear Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Nuki-Uchi [Early Advantage]",
+                "desc": "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)"
+            },
+            "two": {
+                "title": "Magic Power Eye Release",
+                "desc": "Increase own Sword Attack by 120% (3 turns) + lowers Skill Cooldown by 10 seconds + recovers from Blind"
+            }
+        }
+    },
+    "51": {
+        "thumb": "cc_0005002_01.png",
+        "title": "Backbone of the Greyrats",
+        "name": "Paul",
+        "rarity": "4",
+        "element": "Sword God",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "1500",
+            "atk": "600",
+            "def": "400",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "2500",
+            "atk": "1200",
+            "def": "800"
+        },
+        "leaderSkill": {
+            "title": "Backbone of the Greyrats",
+            "lv1": "Increase Sword God type units Attack by 5%",
+            "lv6": "Increase Sword God type units Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Sword Attack UP",
+            "lv1": "Increase own Sword Attack by 15% + Rage Resistance by 40%",
+            "lv5": "Increase own Sword Attack by 25% + Rage Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Low Spirits",
+                "desc": "Increase own Attack by 50% (3 turns)"
+            },
+            "two": {
+                "title": "Rapid Blade",
+                "desc": "Deals 200% Sword Damage to 1 enemy"
+            }
+        }
+    },
+    "52": {
+        "thumb": "cc_0004002_01.png",
+        "title": "Tsundere Princess",
+        "name": "Eris",
+        "rarity": "4",
+        "element": "North God",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "900",
+            "atk": "500",
+            "def": "200",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1700",
+            "atk": "1000",
+            "def": "300"
+        },
+        "leaderSkill": {
+            "title": "Tsundere Princess",
+            "lv1": "Increase North God type units Attack by 5%",
+            "lv6": "Increase North God type units Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Crit Rate UP",
+            "lv1": "Chance to increase own Crit Rate by 40% + Poison Resistance by 40%",
+            "lv5": "Chance to increase own Crit Rate by 50% + Poison Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Boreas Punch",
+                "desc": "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 20% (3 turns)"
+            },
+            "two": {
+                "title": "Onegai Nyan✰✰✰",
+                "desc": "Deals 160% Sword Damage to 1 enemy + chance to inflict Paralyze to the target (2 turns)"
+            }
+        }
+    },
+    "53": {
+        "thumb": "cc_0004006_01.png",
+        "title": "Red-Haired Swordsman",
+        "name": "Eris",
+        "rarity": "4",
+        "element": "North God",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "900",
+            "atk": "600",
+            "def": "300",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1700",
+            "atk": "1200",
+            "def": "600"
+        },
+        "leaderSkill": {
+            "title": "Red-Haired Swordsman",
+            "lv1": "Increase North God type units Defense by 5%",
+            "lv6": "Increase North God type units Defense by 10%"
+        },
+        "passiveSkill": {
+            "title": "Sword Attack UP",
+            "lv1": "Increase own Sword Attack by 15% + Poison Resistance by 40%",
+            "lv5": "Increase own Sword Attack by 25% + Poison Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Low Spirits",
+                "desc": "Increase own Attack by 50% (3 turns)"
+            },
+            "two": {
+                "title": "Onegai Nyan✰✰✰",
+                "desc": "Deals 160% Sword Damage to 1 enemy + chance to inflict Paralyze to the target (2 turns)"
+            }
+        }
+    },
+    "54": {
+        "thumb": "cc_0005006_01.png",
+        "title": "Swordsman Prodigy",
+        "name": "Paul",
+        "rarity": "4",
+        "element": "Water God",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "1200",
+            "atk": "600",
+            "def": "400",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "2000",
+            "atk": "1200",
+            "def": "800"
+        },
+        "leaderSkill": {
+            "title": "Swordsman Prodigy",
+            "lv1": "Increase Water God type units Attack by 5%",
+            "lv6": "Increase Water God type units Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Sword Defense UP",
+            "lv1": "Increase own Sword Defense by 15% + Rage Resistance by 40%",
+            "lv5": "Increase own Sword Defense by 25% + Rage Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Protective Stance",
+                "desc": "Creates Barrier to self (2 turns) + increase Sword Defense by 10% (2 turns)"
+            },
+            "two": {
+                "title": "Water God Style",
+                "desc": "Deals 160% Sword Damage to 1 enemy + nullifies Sword Damage to self (1 time)"
+            }
+        }
+    },
+    "55": {
+        "thumb": "cc_0007002_01.png",
+        "title": "Maid with Glasses",
+        "name": "Lilia",
+        "rarity": "4",
+        "element": "Water God",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "1200",
+            "atk": "300",
+            "def": "400",
+            "spd": "9"
+        },
+        "mlb": {
+            "hp": "2000",
+            "atk": "600",
+            "def": "800"
+        },
+        "leaderSkill": {
+            "title": "Maid with Glasses",
+            "lv1": "Increase Water God type units Health by 5%",
+            "lv6": "Increase Water God type units Health by 10%"
+        },
+        "passiveSkill": {
+            "title": "Sword Defense UP",
+            "lv1": "Increase own Sword Defense by 15% + Burn Resistance by 40%",
+            "lv5": "Increase own Sword Defense by 25% + Burn Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Protective Stance",
+                "desc": "Creates Barrier to self (2 turns) + increase Sword Defense by 10% (2 turns)"
+            },
+            "two": {
+                "title": "Water God Style",
+                "desc": "Deals 160% Sword Damage to 1 enemy + nullifies Sword Damage to self (1 time)"
+            }
+        }
+    },
+    "56": {
+        "thumb": "default.png",
+        "title": "",
+        "name": "",
+        "rarity": "3",
+        "element": "",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "",
+            "atk": "",
+            "def": "",
+            "spd": ""
+        },
+        "mlb": {
+            "hp": "",
+            "atk": "",
+            "def": ""
+        },
+        "leaderSkill": {
+            "title": "",
+            "lv1": "",
+            "lv6": ""
+        },
+        "passiveSkill": {
+            "title": "",
+            "lv1": "",
+            "lv5": ""
+        },
+        "activeSkill": {
+            "one": {
+                "title": "",
+                "desc": ""
+            },
+            "two": {
+                "title": "",
+                "desc": ""
+            }
+        }
+    },
+    "57": {
+        "thumb": "default.png",
+        "title": "",
+        "name": "",
+        "rarity": "3",
+        "element": "",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "",
+            "atk": "",
+            "def": "",
+            "spd": ""
+        },
+        "mlb": {
+            "hp": "",
+            "atk": "",
+            "def": ""
+        },
+        "leaderSkill": {
+            "title": "",
+            "lv1": "",
+            "lv6": ""
+        },
+        "passiveSkill": {
+            "title": "",
+            "lv1": "",
+            "lv5": ""
+        },
+        "activeSkill": {
+            "one": {
+                "title": "",
+                "desc": ""
+            },
+            "two": {
+                "title": "",
+                "desc": ""
+            }
+        }
+    },
+    "58": {
+        "thumb": "default.png",
+        "title": "",
+        "name": "",
+        "rarity": "3",
+        "element": "",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "",
+            "atk": "",
+            "def": "",
+            "spd": ""
+        },
+        "mlb": {
+            "hp": "",
+            "atk": "",
+            "def": ""
+        },
+        "leaderSkill": {
+            "title": "",
+            "lv1": "",
+            "lv6": ""
+        },
+        "passiveSkill": {
+            "title": "",
+            "lv1": "",
+            "lv5": ""
+        },
+        "activeSkill": {
+            "one": {
+                "title": "",
+                "desc": ""
+            },
+            "two": {
+                "title": "",
+                "desc": ""
+            }
+        }
+    },
+    "59": {
+        "thumb": "default.png",
+        "title": "",
+        "name": "",
+        "rarity": "3",
+        "element": "",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "",
+            "atk": "",
+            "def": "",
+            "spd": ""
+        },
+        "mlb": {
+            "hp": "",
+            "atk": "",
+            "def": ""
+        },
+        "leaderSkill": {
+            "title": "",
+            "lv1": "",
+            "lv6": ""
+        },
+        "passiveSkill": {
+            "title": "",
+            "lv1": "",
+            "lv5": ""
+        },
+        "activeSkill": {
+            "one": {
+                "title": "",
+                "desc": ""
+            },
+            "two": {
+                "title": "",
+                "desc": ""
+            }
+        }
+    },
+    "60": {
+        "thumb": "default.png",
+        "title": "",
+        "name": "",
+        "rarity": "3",
+        "element": "",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "",
+            "atk": "",
+            "def": "",
+            "spd": ""
+        },
+        "mlb": {
+            "hp": "",
+            "atk": "",
+            "def": ""
+        },
+        "leaderSkill": {
+            "title": "",
+            "lv1": "",
+            "lv6": ""
+        },
+        "passiveSkill": {
+            "title": "",
+            "lv1": "",
+            "lv5": ""
+        },
+        "activeSkill": {
+            "one": {
+                "title": "",
+                "desc": ""
+            },
+            "two": {
+                "title": "",
+                "desc": ""
+            }
+        }
+    },
+    "61": {
+        "thumb": "default.png",
+        "title": "",
+        "name": "",
+        "rarity": "3",
+        "element": "",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "",
+            "atk": "",
+            "def": "",
+            "spd": ""
+        },
+        "mlb": {
+            "hp": "",
+            "atk": "",
+            "def": ""
+        },
+        "leaderSkill": {
+            "title": "",
+            "lv1": "",
+            "lv6": ""
+        },
+        "passiveSkill": {
+            "title": "",
+            "lv1": "",
+            "lv5": ""
+        },
+        "activeSkill": {
+            "one": {
+                "title": "",
+                "desc": ""
+            },
+            "two": {
+                "title": "",
+                "desc": ""
+            }
+        }
+    },
+    "62": {
+        "thumb": "default.png",
+        "title": "",
+        "name": "",
+        "rarity": "3",
+        "element": "",
+        "tier": {
+            "rank": "",
+            "desc": ""
+        },
+        "base": {
+            "hp": "",
+            "atk": "",
+            "def": "",
+            "spd": ""
+        },
+        "mlb": {
+            "hp": "",
+            "atk": "",
+            "def": ""
+        },
+        "leaderSkill": {
+            "title": "",
+            "lv1": "",
+            "lv6": ""
+        },
+        "passiveSkill": {
+            "title": "",
+            "lv1": "",
+            "lv5": ""
+        },
+        "activeSkill": {
+            "one": {
+                "title": "",
+                "desc": ""
+            },
+            "two": {
+                "title": "",
+                "desc": ""
             }
         }
     }
