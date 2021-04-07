@@ -19,42 +19,33 @@
             <ul class="pl-4 list-disc" id="alerts"></ul>
         </div>
 
-        <div class="relative max-w-7xl block mb-2 sm:float-right">
-            <div class="block text-center text-sm text-gray-500 sm:inline-block mr-2" id="searchResult"></div>
-            <div class="mt-2 block mx-auto sm:inline-block sm:mt-0">
-                <div>
-                    <button type="button"
-                        class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
-                        id="sort" aria-expanded="true" aria-haspopup="true">
-                        Sort
-                        <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                            fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </button>
+        <div class="max-w-7xl mx-auto bg-white mb-4 rounded-lg py-2 px-4">
+            <h1 class="text-base mb-2">Search Filter</h1>
+
+            <div class="space-y-1">
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 font-semibold">Rarity</div>
+                    <div id="filter-rarity-links"></div>
                 </div>
 
-                <div class="hidden origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-md bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none"
-                    role="sort" aria-orientation="vertical" aria-labelledby="sort" id="sort-options">
-                    <div class="py-1" role="none">
-                        <a href="?rarity=3"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">3-star</a>
-                        <a href="?rarity=4"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">4-star</a>
-                        <a href="?rarity=5"
-                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                            role="sortitem">5-star</a>
-                    </div>
-                    <div class="py-1" role="none" id="sort-elements"></div>
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 pr-4 font-semibold">Tier</div>
+                    <div id="filter-tier-links"></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 pr-4 font-semibold">Element</div>
+                    <div id="filter-element-links"></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 pr-4 font-semibold">Unit</div>
+                    <div id="filter-unit-links"></div>
                 </div>
             </div>
         </div>
 
-        <div class="clear-right grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2" id="units"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2" id="units"></div>
     </div>
 
     <div id="include-footer"></div>

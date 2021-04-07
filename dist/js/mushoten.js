@@ -32,10 +32,68 @@ $(document).ready(function () {
     });
 
     $.getJSON("./dist/data/elements.json", function (data) {
+        $("#filter-element-links").append(searchFilterLink("e", "Any"));
         $.each(data, function (_, value) {
-            $("#sort-elements").append(
-                `<a href="?element=${value}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="sortitem">${value}</a>`
-            );
+            $("#filter-element-links").append(searchFilterLink("e", value));
         });
     });
+
+    $.getJSON("./dist/data/units-name.json", function (data) {
+        $("#filter-unit-links").append(searchFilterLink("u", "Any"));
+        $.each(data, function (_, value) {
+            $("#filter-unit-links").append(searchFilterLink("u", value));
+        });
+    });
+
+    $.getJSON("./dist/data/tiers.json", function (data) {
+        $("#filter-tier-links").append(searchFilterLink("t", "Any"));
+        $.each(data, function (_, value) {
+            $("#filter-tier-links").append(searchFilterLink("t", value));
+        });
+    });
+
+    $.getJSON("./dist/data/units-rarity.json", function (data) {
+        $("#filter-rarity-links").append(searchFilterLink("r", "Any"));
+        $.each(data, function (_, value) {
+            $("#filter-rarity-links").append(searchFilterLink("r", value));
+        });
+    });
+
+    function searchFilterLink(type, value) {
+        const urlParams = new URLSearchParams(queryString);
+        const search = {
+            r: urlParams.get("r"),
+            t: urlParams.get("t"),
+            e: urlParams.get("e"),
+            u: urlParams.get("u"),
+        };
+
+        let searchString = value;
+        if (value > 0) value += `-star`;
+
+        let href = ``;
+        let count = 0;
+
+        $.each(search, function (key, item) {
+            if (count === 0) {
+                href += `?`;
+                count++;
+            }
+
+            if (type === key) {
+                href += `${key}=${searchString}`;
+                count++;
+                if (count !== 0) href += `&`;
+            } else {
+                if (typeof item === `string`) {
+                    href += `${key}=${item}`;
+                    count++;
+                    if (count !== 0) href += `&`;
+                }
+            }
+        });
+
+        href = href.substring(0, href.length - 1);
+        return `<a href="${href}" class="inline-block pr-2 text-amber-900 hover:underline hover:text-amber-700">${value}</a>`;
+    }
 });

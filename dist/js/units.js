@@ -1,33 +1,61 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const nameSearch = urlParams.get("name");
-const raritySearch = urlParams.get("rarity");
-const elementSearch = urlParams.get("element");
+const search = [urlParams.get("r"), urlParams.get("t"), urlParams.get("e"), urlParams.get("u")];
 
 $(document).ready(function () {
     $.getJSON("./dist/data/units.json", function (data) {
-        $.each(data, function (key, value) {
-            if (typeof nameSearch === `string`) {
-                if (nameSearch.toLowerCase() === value.name.toLowerCase()) {
-                    $("#searchResult").text(`Showing all ${value.name} units`);
-                    unitsTemplateList(key, value);
-                }
-            } else if (typeof raritySearch === `string`) {
-                if (raritySearch === value.rarity) {
-                    $("#searchResult").text(`Showing all ${raritySearch}-star units`);
-                    unitsTemplateList(key, value);
-                }
-            } else if (typeof elementSearch === `string`) {
-                if (elementSearch.toLowerCase() === value.element.toLowerCase()) {
-                    $("#searchResult").text(`Showing all ${elementSearch} type units`);
-                    unitsTemplateList(key, value);
-                }
-            } else {
-                if (value.rarity === `3`) {
-                    $("#searchResult").text("Showing all 3-star units");
-                    unitsTemplateList(key, value);
+        let units = [];
+        if (search[1] === `AA`) search[1] = `A+`;
+
+        $(data).filter(function (_, items) {
+            $.each(items, function (_, value) {
+                units.push(value);
+            });
+        });
+
+        $.each(search, function (key, value) {
+            if (typeof search[key] === `string`) {
+                if (search[key].toLowerCase() === `any`) {
+                    search[key] = null;
                 }
             }
+        });
+
+        if (typeof search[0] === `string`) {
+            units = units.filter(function (item) {
+                return item.rarity === search[0];
+            });
+        }
+
+        if (typeof search[1] === `string`) {
+            units = units.filter(function (item) {
+                return item.tier.rank === search[1];
+            });
+        }
+
+        if (typeof search[2] === `string`) {
+            units = units.filter(function (item) {
+                return item.element === search[2];
+            });
+        }
+
+        if (typeof search[3] === `string`) {
+            units = units.filter(function (item) {
+                return item.name === search[3];
+            });
+        }
+
+        units.sort(function (a, b) {
+            return a.rarity.localeCompare(b.rarity);
+        });
+
+        $.each(units, function (_, unit) {
+            let id = ``;
+            $.each(data, function (key, item) {
+                if (item.thumb === unit.thumb) id = key;
+            });
+
+            unitsTemplateList(id, unit);
         });
     });
 
