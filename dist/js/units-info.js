@@ -19,6 +19,9 @@ $(document).ready(function () {
     });
 
     function unitsTemplateSingle(units) {
+        const converter = new showdown.Converter();
+        const tierDescription = converter.makeHtml(units.tier.desc);
+
         let rarity = ``;
         let unitsCover = typeof units.altArt === `string` ? units.altArt : units.thumb;
         for (var i = 1; i <= units.rarity; i++) rarity += `⭐`;
@@ -55,7 +58,7 @@ $(document).ready(function () {
                             <p class="text-xs text-gray-500 font-semibold">
                                 Why ${units.tier.rank} Tier?
                                 <p class="text-base">
-                                    ${units.tier.desc}
+                                    ${tierDescription}
                                 </p>
                             </p>
                         </div>  
