@@ -2310,296 +2310,303 @@
         }
     },
     "56": {
-        "thumb": "default.png",
-        "title": "",
-        "name": "",
-        "rarity": "3",
-        "element": "",
+        "thumb": "cc_0002002_01.png",
+        "altArt": "cc_0002002_02.png",
+        "title": "Smol Shishou",
+        "name": "Roxy",
+        "rarity": "5",
+        "element": "Water",
         "tier": {
-            "rank": "",
-            "desc": ""
+            "rank": "A+",
+            "desc": "Great Water type DPS with good single target damage and AoE DPS. Main flaw is poor defense and self debuff after Cumulonimbus."
         },
         "base": {
-            "hp": "",
-            "atk": "",
-            "def": "",
-            "spd": ""
+            "hp": "1400",
+            "atk": "1400",
+            "def": "400",
+            "spd": "12"
         },
         "mlb": {
-            "hp": "",
-            "atk": "",
-            "def": ""
+            "hp": "1800",
+            "atk": "2000",
+            "def": "570"
         },
         "leaderSkill": {
-            "title": "",
-            "lv1": "",
-            "lv6": ""
+            "title": "Smol Shisou",
+            "lv1": "Increase Water type units Attack by 10%",
+            "lv6": "Increase Water type units Attack by 15% + Crit Damage by 10%"
         },
         "passiveSkill": {
-            "title": "",
-            "lv1": "",
-            "lv5": ""
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 20% + Burn Resistance by 60%",
+            "lv5": "Increase own Magic Attack by 30% + Burn Resistance by 80%"
         },
         "activeSkill": {
             "one": {
-                "title": "",
-                "desc": ""
+                "title": "Waterball",
+                "desc": "Deals 160% Magic Damage to 1 enemy + decrease Crit Rate by 20% (3 turns)"
             },
             "two": {
-                "title": "",
-                "desc": ""
+                "title": "Cumulonimbus",
+                "desc": "Deals 150% Magic Damage to all enemies + decrease own Defense by 50% (3 turns)"
             }
         }
     },
     "57": {
-        "thumb": "default.png",
-        "title": "",
-        "name": "",
-        "rarity": "3",
-        "element": "",
+        "thumb": "cc_0003004_01.png",
+        "altArt": "cc_0003004_02.png",
+        "title": "Miracle Angel",
+        "name": "Sylphiette",
+        "rarity": "5",
+        "element": "Wind",
         "tier": {
-            "rank": "",
-            "desc": ""
+            "rank": "S",
+            "desc": "Wind element Healer, Buffer, and Debuffer. Both of her skills do AoE damage and her Attack is high. Almost mandatory for Labyrinth 3. No flaws other than being squishy."
         },
         "base": {
-            "hp": "",
-            "atk": "",
-            "def": "",
-            "spd": ""
+            "hp": "1400",
+            "atk": "1400",
+            "def": "400",
+            "spd": "12"
         },
         "mlb": {
-            "hp": "",
-            "atk": "",
-            "def": ""
+            "hp": "1800",
+            "atk": "2000",
+            "def": "570"
         },
         "leaderSkill": {
-            "title": "",
-            "lv1": "",
-            "lv6": ""
+            "title": "Miracle Angel",
+            "lv1": "Increase Wind type units Health by 10%",
+            "lv6": "Increase Wind type units Health by 15% + Magic Defense by 10%"
         },
         "passiveSkill": {
-            "title": "",
-            "lv1": "",
-            "lv5": ""
+            "title": "Magic Defense UP",
+            "lv1": "Increase own Magic Defense by 20% + Paralyze Resistance by 60%",
+            "lv5": "Increase own Magic Defense by 30% + Paralyze Resistance by 80%"
         },
         "activeSkill": {
             "one": {
-                "title": "",
-                "desc": ""
+                "title": "Healing Wind",
+                "desc": "Deals 50% Magic Damage to all enemies + recovers all allies Health by 20% + increase Speed by 3 for all allies (3 turns)"
             },
             "two": {
-                "title": "",
-                "desc": ""
+                "title": "Wind Slice",
+                "desc": "Deals 110% Magic Damage to all enemies + decrease Speed by 3 (3 turns) + decrease Attack by 20% (3 turns)"
             }
         }
     },
     "58": {
-        "thumb": "default.png",
-        "title": "",
-        "name": "",
-        "rarity": "3",
-        "element": "",
+        "thumb": "cc_0001005_01.png",
+        "altArt": "cc_0001005_02.png",
+        "title": "Oracle Magician",
+        "name": "Rudeus",
+        "rarity": "5",
+        "element": "Earth",
         "tier": {
-            "rank": "",
-            "desc": ""
+            "rank": "A",
+            "desc": "His kit is really good. Magic DEF down and Speed down, both AoE. Excellent stats too, more ATK than every other 5-star. Unfortunately game meta currently has no need for a strong Earth type DPS like him and the 4-star version works fine."
         },
         "base": {
-            "hp": "",
-            "atk": "",
-            "def": "",
-            "spd": ""
+            "hp": "1400",
+            "atk": "1500",
+            "def": "400",
+            "spd": "12"
         },
         "mlb": {
-            "hp": "",
-            "atk": "",
-            "def": ""
+            "hp": "1800",
+            "atk": "2200",
+            "def": "570"
         },
         "leaderSkill": {
-            "title": "",
-            "lv1": "",
-            "lv6": ""
+            "title": "Oracle Magician",
+            "lv1": "Increase Earth type units Health by 10%",
+            "lv6": "Increase Earth type units Health by 15% + Magic Attack by 10%"
         },
         "passiveSkill": {
-            "title": "",
-            "lv1": "",
-            "lv5": ""
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 20% + Rage Resistance by 60%",
+            "lv5": "Increase own Magic Attack by 30% + Rage Resistance by 80%"
         },
         "activeSkill": {
             "one": {
-                "title": "",
-                "desc": ""
+                "title": "Mud Drop",
+                "desc": "Deals 100% Magic Damage to all enemies + decrease Speed by 3 (3 turns)"
             },
             "two": {
-                "title": "",
-                "desc": ""
+                "title": "Sonic Stone",
+                "desc": "Deals 110% Magic Damage to all enemies + decrease Magic Defense by 30% (3 turns)"
             }
         }
     },
     "59": {
-        "thumb": "default.png",
-        "title": "",
-        "name": "",
-        "rarity": "3",
-        "element": "",
+        "thumb": "cc_0005005_01.png",
+        "altArt": "cc_0005005_02.png",
+        "title": "Noto's Naughty Boy",
+        "name": "Paul",
+        "rarity": "5",
+        "element": "Sword God",
         "tier": {
-            "rank": "",
-            "desc": ""
+            "rank": "A+",
+            "desc": "Highest single-target damage in the game right now.<br /><br />Unfortunately, Expert nerfs non-advantaged DPS by 80% (so type advantage is 10x of neutral damage), so it's hard for him to shine in endgame content where he isn't advantaged.<br /><br />His DPS is a lot higher than most other characters since his ultimate adds even more extra damage to his attacks for 2 turns."
         },
         "base": {
-            "hp": "",
-            "atk": "",
-            "def": "",
-            "spd": ""
+            "hp": "2000",
+            "atk": "1200",
+            "def": "700",
+            "spd": "12"
         },
         "mlb": {
-            "hp": "",
-            "atk": "",
-            "def": ""
+            "hp": "2800",
+            "atk": "1800",
+            "def": "1200"
         },
         "leaderSkill": {
-            "title": "",
-            "lv1": "",
-            "lv6": ""
+            "title": "Noto's Naughty Boy",
+            "lv1": "Increase Sword God type units Defense by 10%",
+            "lv6": "Increase Sword God type units Defense by 15% + Sword Attack by 10%"
         },
         "passiveSkill": {
-            "title": "",
-            "lv1": "",
-            "lv5": ""
+            "title": "Sword Attack UP",
+            "lv1": "Increase own Sword Attack by 20% + Rage Resistance by 60%",
+            "lv5": "Increase own Sword Attack by 30% + Rage Resistance by 80%"
         },
         "activeSkill": {
             "one": {
-                "title": "",
-                "desc": ""
+                "title": "Evil",
+                "desc": "Deals 150% Sword Damage to 1 enemy + decrease Sword Defense by 40% (3 turns)"
             },
             "two": {
-                "title": "",
-                "desc": ""
+                "title": "Villainous",
+                "desc": "Deals 200% Sword Damage to 1 enemy. For the next 2 turns, each time Paul attacks (including with his skill), deal an additional instance of damage equal to 50% of Sword Skill Damage."
             }
         }
     },
     "60": {
-        "thumb": "default.png",
-        "title": "",
-        "name": "",
-        "rarity": "3",
-        "element": "",
+        "thumb": "cc_0010002_01.png",
+        "altArt": "cc_0010002_02.png",
+        "title": "Sword King",
+        "name": "Ghislaine",
+        "rarity": "5",
+        "element": "Sword God",
         "tier": {
-            "rank": "",
-            "desc": ""
+            "rank": "A",
+            "desc": "Good AoE farmer. Skills are nothing special, but her stats are insane.<br /><br />Due to her sheer HP/ATK/DEF it's possible to brute force push story stages with Ghislaine.<br /><br />Rated at A-tier since technically optional and you can do all content without her."
         },
         "base": {
-            "hp": "",
-            "atk": "",
-            "def": "",
-            "spd": ""
+            "hp": "2300",
+            "atk": "1300",
+            "def": "550",
+            "spd": "15"
         },
         "mlb": {
-            "hp": "",
-            "atk": "",
-            "def": ""
+            "hp": "3200",
+            "atk": "2000",
+            "def": "1000"
         },
         "leaderSkill": {
-            "title": "",
-            "lv1": "",
-            "lv6": ""
+            "title": "Sword King",
+            "lv1": "Increase Sword God type units Attack by 10%",
+            "lv6": "Increase Sword God type units Attack by 15% + Sword Defense by 10%"
         },
         "passiveSkill": {
-            "title": "",
-            "lv1": "",
-            "lv5": ""
+            "title": "Sword Attack UP",
+            "lv1": "Increase own Sword Attack by 20% + Rage Resistance by 60%",
+            "lv5": "Increase own Sword Attack by 30% + Rage Resistance by 80%"
         },
         "activeSkill": {
             "one": {
-                "title": "",
-                "desc": ""
+                "title": "Sword King's Slash",
+                "desc": "Deals 130% Sword Damage to 2 enemies"
             },
             "two": {
-                "title": "",
-                "desc": ""
+                "title": "Sword of Light",
+                "desc": "Deals 130% Sword Damage to all enemies"
             }
         }
     },
     "61": {
-        "thumb": "default.png",
-        "title": "",
-        "name": "",
-        "rarity": "3",
-        "element": "",
+        "thumb": "cc_0004005_01.png",
+        "altArt": "cc_0004005_02.png",
+        "title": "Trust's Smile",
+        "name": "Eris",
+        "rarity": "5",
+        "element": "North God",
         "tier": {
-            "rank": "",
-            "desc": ""
+            "rank": "S",
+            "desc": "Party Buffer with 30% Damage + 60% Sword Skill damage. Can make Young Paul hit for 10000+ damage per attack.<br /><br />The only AoE North God DPS, and has strong selfbuffs so her single-target damage is decent too."
         },
         "base": {
-            "hp": "",
-            "atk": "",
-            "def": "",
-            "spd": ""
+            "hp": "1700",
+            "atk": "1200",
+            "def": "550",
+            "spd": "12"
         },
         "mlb": {
-            "hp": "",
-            "atk": "",
-            "def": ""
+            "hp": "2500",
+            "atk": "1800",
+            "def": "1000"
         },
         "leaderSkill": {
-            "title": "",
-            "lv1": "",
-            "lv6": ""
+            "title": "Trust's Smile",
+            "lv1": "Increase North God type units Health by 10%",
+            "lv6": "Increase North God type units Health by 15% + Sword Attack by 10%"
         },
         "passiveSkill": {
-            "title": "",
-            "lv1": "",
-            "lv5": ""
+            "title": "Sword Attack UP",
+            "lv1": "Increase own Sword Attack by 20% + Poison Resistance by 60%",
+            "lv5": "Increase own Sword Attack by 30% + Poison Resistance by 80%"
         },
         "activeSkill": {
             "one": {
-                "title": "",
-                "desc": ""
+                "title": "Rudeus is Amazing!",
+                "desc": "Increase all allies Attack by 30% (3 turns) + increase Sword Attack by 60% (3 turns)"
             },
             "two": {
-                "title": "",
-                "desc": ""
+                "title": "Boreas Dance",
+                "desc": "Deals 110% Sword Damage to all enemies + chance to give Rage to self (3 turns) + chance to increase Attack by 40% (3 turns)"
             }
         }
     },
     "62": {
-        "thumb": "default.png",
-        "title": "",
-        "name": "",
-        "rarity": "3",
-        "element": "",
+        "thumb": "cc_0016002_01.png",
+        "altArt": "cc_0016002_02.png",
+        "title": "Devilish Beauty",
+        "name": "Elinalise",
+        "rarity": "5",
+        "element": "Water God",
         "tier": {
-            "rank": "",
-            "desc": ""
+            "rank": "A+",
+            "desc": "Has a party taunt and single-target charm. Extremely high defensive stats makes her a great tank.<br /><br />Makes Lab 3 much easier too but *technically* optional."
         },
         "base": {
-            "hp": "",
-            "atk": "",
-            "def": "",
-            "spd": ""
+            "hp": "1700",
+            "atk": "600",
+            "def": "800",
+            "spd": "15"
         },
         "mlb": {
-            "hp": "",
-            "atk": "",
-            "def": ""
+            "hp": "2800",
+            "atk": "1000",
+            "def": "1300"
         },
         "leaderSkill": {
-            "title": "",
-            "lv1": "",
-            "lv6": ""
+            "title": "Devilish Beauty",
+            "lv1": "Increase Water God type units Defense by 10%",
+            "lv6": "Increase Water God type units Defense by 15% + Sword Attack by 10%"
         },
         "passiveSkill": {
-            "title": "",
-            "lv1": "",
-            "lv5": ""
+            "title": "Damage Taken DOWN",
+            "lv1": "Decrease Damage taken by 15% to self + Stun Resistance by 60%",
+            "lv5": "Decrease Damage taken by 20% to self + Stun Resistance by 80%"
         },
         "activeSkill": {
             "one": {
-                "title": "",
-                "desc": ""
+                "title": "Hate Management",
+                "desc": "Provokes all enemies (3 turns) + increase own Defense by 30% (2 turns)"
             },
             "two": {
-                "title": "",
-                "desc": ""
+                "title": "Beauty's Temptation",
+                "desc": "Chance to Charm 1 enemy (1 turn) + decrease Sword Defense by 10% (3 turns)"
             }
         }
     }
