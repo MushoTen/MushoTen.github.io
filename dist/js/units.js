@@ -45,9 +45,16 @@ $(document).ready(function () {
             });
         }
 
-        units.sort(function (a, b) {
-            return a.rarity.localeCompare(b.rarity);
-        });
+        if (
+            typeof search[0] !== `string` &&
+            typeof search[1] !== `string` &&
+            typeof search[2] !== `string` &&
+            typeof search[3] !== `string`
+        ) {
+            units = units.filter(function (item) {
+                return item.rarity === `5`;
+            });
+        }
 
         $.each(units, function (_, unit) {
             let id = ``;

@@ -2,15 +2,6 @@ $(document).ready(function () {
     $("#include-nav").load("./dist/includes/navigation.html");
     $("#include-footer").load("./dist/includes/footer.html");
 
-    $("#sort").click(function (e) {
-        $("#sort-options").toggleClass("hidden");
-        e.preventDefault();
-    });
-
-    $("#previous-page").click(function (e) {
-        window.history.back();
-    });
-
     $.getJSON("./dist/data/settings.json", function (data) {
         let title = $(document).prop("title");
 
