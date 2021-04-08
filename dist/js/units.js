@@ -1,14 +1,27 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const search = [urlParams.get("r"), urlParams.get("t"), urlParams.get("e"), urlParams.get("u")];
+const search = [urlParams.get("r"), urlParams.get("t"), urlParams.get("e"), urlParams.get("u"), urlParams.get("g")];
 
 $(document).ready(function () {
+    let infos = [];
+    $.getJSON("./dist/data/units-info.json", function (data) {
+        $.each(data, function (key, value) {
+            infos.push(value);
+        });
+    });
+
     $.getJSON("./dist/data/units.json", function (data) {
         let units = [];
         if (search[1] === `AA`) search[1] = `A+`;
 
         $(data).filter(function (_, items) {
             $.each(items, function (_, value) {
+                $.each(infos, function (_, info) {
+                    if (info.name === value.name) {
+                        value["gender"] = info.gender;
+                    }
+                });
+
                 units.push(value);
             });
         });
@@ -29,30 +42,25 @@ $(document).ready(function () {
 
         if (typeof search[1] === `string`) {
             units = units.filter(function (item) {
-                return item.tier.rank === search[1];
+                return item.tier.rank.toLowerCase() === search[1].toLowerCase();
             });
         }
 
         if (typeof search[2] === `string`) {
             units = units.filter(function (item) {
-                return item.element === search[2];
+                return item.element.toLowerCase() === search[2].toLowerCase();
             });
         }
 
         if (typeof search[3] === `string`) {
             units = units.filter(function (item) {
-                return item.name === search[3];
+                return item.name.toLowerCase() === search[3].toLowerCase();
             });
         }
 
-        if (
-            typeof search[0] !== `string` &&
-            typeof search[1] !== `string` &&
-            typeof search[2] !== `string` &&
-            typeof search[3] !== `string`
-        ) {
+        if (typeof search[4] === `string`) {
             units = units.filter(function (item) {
-                return item.rarity === `5`;
+                return item.gender.toLowerCase() === search[4].toLowerCase();
             });
         }
 

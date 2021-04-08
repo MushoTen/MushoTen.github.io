@@ -29,10 +29,10 @@ $(document).ready(function () {
         });
     });
 
-    $.getJSON("./dist/data/units-name.json", function (data) {
+    $.getJSON("./dist/data/units-info.json", function (data) {
         $("#filter-unit-links").append(searchFilterLink("u", "Any"));
         $.each(data, function (_, value) {
-            $("#filter-unit-links").append(searchFilterLink("u", value));
+            $("#filter-unit-links").append(searchFilterLink("u", value.name));
         });
     });
 
@@ -50,6 +50,11 @@ $(document).ready(function () {
         });
     });
 
+    $("#filter-gender-links").append(searchFilterLink("g", "Any"));
+    $.each(["Male", "Female"], function (_, value) {
+        $("#filter-gender-links").append(searchFilterLink("g", value));
+    });
+
     function searchFilterLink(type, value) {
         const urlParams = new URLSearchParams(queryString);
         const search = {
@@ -57,6 +62,7 @@ $(document).ready(function () {
             t: urlParams.get("t"),
             e: urlParams.get("e"),
             u: urlParams.get("u"),
+            g: urlParams.get("g"),
         };
 
         let searchString = value;
