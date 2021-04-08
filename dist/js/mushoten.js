@@ -67,6 +67,7 @@ $(document).ready(function () {
 
         let searchString = value;
         if (value > 0) value += `-star`;
+        if (value === `AA`) value = `A+`;
 
         let href = ``;
         let count = 0;
