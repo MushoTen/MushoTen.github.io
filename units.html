@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="./dist/css/mushoten.css">
+</head>
+
+<body class="bg-gray-200">
+    <div class="sticky w-full z-50 top-0" id="include-nav"></div>
+
+    <div class="max-w-7xl mx-auto mt-4 px-2 sm:px-6 lg:lx-8 mb-2">
+        <div class="bg-amber-50 shadow-sm mb-4 rounded-lg py-2 px-4 text-dark text-sm">
+            <ul class="pl-4 list-disc" id="alerts"></ul>
+        </div>
+
+        <div class="max-w-7xl mx-auto bg-white mb-4 rounded-lg py-2 px-4">
+            <h1 class="text-base mb-2">Search Filter</h1>
+
+            <div class="space-y-1">
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 font-semibold">Gender</div>
+                    <div id="filter-gender-links"></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 font-semibold">Rarity</div>
+                    <div id="filter-rarity-links"></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 pr-4 font-semibold">Tier</div>
+                    <div id="filter-tier-links"></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 pr-4 font-semibold">Element</div>
+                    <div id="filter-element-links"></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row text-sm">
+                    <div class="flex-shrink-0 w-24 pr-4 font-semibold">Unit</div>
+                    <div id="filter-unit-links"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2" id="units"></div>
+    </div>
+
+    <div id="include-footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./dist/js/showdown.min.js"></script>
+    <script src="./dist/js/mushoten.js"></script>
+    <script src="./dist/js/units.js"></script>
+</body>
+
+</html>
