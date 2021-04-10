@@ -1,0 +1,23 @@
+{
+    "monday": {
+        "elements": ["Earth"]
+    },
+    "tuesday": {
+        "elements": ["Fire", "Sword God"]
+    },
+    "wednesday": {
+        "elements": ["Water", "Water God"]
+    },
+    "thursday": {
+        "elements": ["Wind", "North God"]
+    },
+    "friday": {
+        "elements": ["Self-Taught"]
+    },
+    "saturday": {
+        "elements": ["Earth", "Fire", "Sword God"]
+    },
+    "sunday": {
+        "elements": ["Water", "Water God", "Wind", "North God", "Self-Taught"]
+    }
+}
