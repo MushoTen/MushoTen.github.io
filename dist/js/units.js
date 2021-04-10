@@ -87,7 +87,7 @@ $(document).ready(function () {
                     </div>
                     <div class="pl-2">
                         <div class="uppercase tracking-wider text-xs text-amber-500 font-semibold">${units.title}</div>
-                        <a href="./character.html?id=${id}" class="text-xl text-amber-900 hover:underline">${units.name}</a>
+                        <a href="./unit.html?id=${id}" class="text-xl text-amber-900 hover:underline">${units.name}</a>
                         <p class="relative mt-1 text-sm text-gray-500">
                             <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
                                 ${rarity}
