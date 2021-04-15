@@ -216,8 +216,8 @@
         "rarity": "3",
         "element": "Water",
         "tier": {
-            "rank": "-",
-            "desc": ""
+            "rank": "C",
+            "desc": "Not meaningfully differentiated from other Water-class units, but stats are okay."
         },
         "base": {
             "hp": "500",
@@ -258,8 +258,8 @@
         "rarity": "3",
         "element": "Water",
         "tier": {
-            "rank": "-",
-            "desc": ""
+            "rank": "C",
+            "desc": "Single target nuker kit, but held back by being a 3-star and having 3-star levels of stats (even if his 1100 ATK is way above average for his rarity)."
         },
         "base": {
             "hp": "500",
@@ -300,8 +300,8 @@
         "rarity": "3",
         "element": "Water",
         "tier": {
-            "rank": "-",
-            "desc": ""
+            "rank": "B",
+            "desc": "Okay stats, and decreases enemy buff turns by 1. Possibly useful in some fights."
         },
         "base": {
             "hp": "500",
@@ -326,12 +326,12 @@
         },
         "activeSkill": {
             "one": {
-                "title": "-",
-                "desc": ""
+                "title": "Waterfall",
+                "desc": "Lowers 1 enemy Magic Defense by 40% (3 turns)"
             },
             "two": {
-                "title": "-",
-                "desc": ""
+                "title": "Water Flow [Flood Splash]",
+                "desc": "Deals 100% Magic Damage to all enemies + lowers Active Buffs turns by 1"
             }
         }
     },
@@ -342,8 +342,8 @@
         "rarity": "3",
         "element": "Water",
         "tier": {
-            "rank": "-",
-            "desc": ""
+            "rank": "E",
+            "desc": "Bad stats and a very strange kit that doesn't synergize with itself."
         },
         "base": {
             "hp": "500",
@@ -384,8 +384,8 @@
         "rarity": "3",
         "element": "Water",
         "tier": {
-            "rank": "-",
-            "desc": ""
+            "rank": "X",
+            "desc": "One of the only 2 water-type healers in the entire game.<br /><br />Every other healer is Wind attribute, so if you need healing against fire-type enemies..."
         },
         "base": {
             "hp": "500",
@@ -426,8 +426,8 @@
         "rarity": "3",
         "element": "Water",
         "tier": {
-            "rank": "-",
-            "desc": ""
+            "rank": "B",
+            "desc": "One of the only 2 water-type healers in the entire game.<br /><br />Unlike the Wind attribute Zenith, her skill only provides healing and +DEF, without the poison cure or immunity."
         },
         "base": {
             "hp": "600",
@@ -1680,6 +1680,48 @@
         }
     },
     "41": {
+        "thumb": "cc_0002010_01.png",
+        "title": "Festival Fireworks",
+        "name": "Roxy",
+        "rarity": "4",
+        "element": "Fire",
+        "tier": {
+            "rank": "-",
+            "desc": "no description"
+        },
+        "base": {
+            "hp": "1050",
+            "atk": "1100",
+            "def": "300",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "1500",
+            "atk": "1700",
+            "def": "435"
+        },
+        "leaderSkill": {
+            "title": "Festival Fireworks",
+            "lv1": "Increase Fire type units Attack by 5%",
+            "lv6": "Increase Fire type units Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 15% + Burn Resistance by 40% + Sleep Resistance by 40%",
+            "lv5": "Increase own Magic Attack by 25% + Burn Resistance by 60% + Sleep Resistance by 60%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Spring Shot",
+                "desc": "Deals 150% Magic Damage to 1 enemy + increase all Fire allies' chance to inflict Burn for 3 turns"
+            },
+            "two": {
+                "title": "Blossom Flame",
+                "desc": "Deals 160% Magic Damage to 1 enemy + chance to inflict Burn for 1 turn"
+            }
+        }
+    },
+    "42": {
         "thumb": "cc_0002004_01.png",
         "title": "Teacher's Night Lessons",
         "name": "Roxy",
@@ -1721,7 +1763,7 @@
             }
         }
     },
-    "42": {
+    "43": {
         "thumb": "cc_0017002_01.png",
         "title": "S Ranked Adventurer",
         "name": "Talhand",
@@ -1763,7 +1805,7 @@
             }
         }
     },
-    "43": {
+    "44": {
         "thumb": "cc_0003002_01.png",
         "title": "Crybaby",
         "name": "Sylphiette",
@@ -1805,7 +1847,7 @@
             }
         }
     },
-    "44": {
+    "45": {
         "thumb": "cc_0002005_01.png",
         "title": "Water King Class Magician",
         "name": "Roxy",
@@ -1847,7 +1889,7 @@
             }
         }
     },
-    "45": {
+    "46": {
         "thumb": "cc_0003003_01.png",
         "title": "Healer in Training",
         "name": "Sylphiette",
@@ -1889,7 +1931,7 @@
             }
         }
     },
-    "46": {
+    "47": {
         "thumb": "cc_0001003_01.png",
         "title": "Home Tutor",
         "name": "Rudeus",
@@ -1931,7 +1973,7 @@
             }
         }
     },
-    "47": {
+    "48": {
         "thumb": "cc_0001006_01.png",
         "title": "Adventurer",
         "name": "Rudeus",
@@ -1973,7 +2015,7 @@
             }
         }
     },
-    "48": {
+    "49": {
         "thumb": "cc_0015001_01.png",
         "title": "From a Hated Race",
         "name": "Ruijerd",
@@ -2015,7 +2057,7 @@
             }
         }
     },
-    "49": {
+    "50": {
         "thumb": "cc_0004003_01.png",
         "title": "Adventurer",
         "name": "Eris",
@@ -2057,7 +2099,7 @@
             }
         }
     },
-    "50": {
+    "51": {
         "thumb": "cc_0010004_01.png",
         "title": "Boreas Family Sword Instructor",
         "name": "Ghislaine",
@@ -2099,7 +2141,7 @@
             }
         }
     },
-    "51": {
+    "52": {
         "thumb": "cc_0005002_01.png",
         "title": "Backbone of the Greyrats",
         "name": "Paul",
@@ -2141,7 +2183,7 @@
             }
         }
     },
-    "52": {
+    "53": {
         "thumb": "cc_0004002_01.png",
         "title": "Tsundere Princess",
         "name": "Eris",
@@ -2183,7 +2225,7 @@
             }
         }
     },
-    "53": {
+    "54": {
         "thumb": "cc_0004006_01.png",
         "title": "Red-Haired Swordsman",
         "name": "Eris",
@@ -2225,7 +2267,7 @@
             }
         }
     },
-    "54": {
+    "55": {
         "thumb": "cc_0005006_01.png",
         "title": "Swordsman Prodigy",
         "name": "Paul",
@@ -2267,7 +2309,7 @@
             }
         }
     },
-    "55": {
+    "56": {
         "thumb": "cc_0007002_01.png",
         "title": "Maid with Glasses",
         "name": "Lilia",
@@ -2309,7 +2351,50 @@
             }
         }
     },
-    "56": {
+    "57": {
+        "thumb": "cc_0004016_01.png",
+        "altArt": "cc_0004016_02.png",
+        "title": "Festive Flower Storm",
+        "name": "Eris",
+        "rarity": "5",
+        "element": "Fire",
+        "tier": {
+            "rank": "-",
+            "desc": "no description"
+        },
+        "base": {
+            "hp": "1700",
+            "atk": "800",
+            "def": "400",
+            "spd": "12"
+        },
+        "mlb": {
+            "hp": "2500",
+            "atk": "1600",
+            "def": "570"
+        },
+        "leaderSkill": {
+            "title": "Festive Flower Storm",
+            "lv1": "Increase Fire type units Attack by 10%",
+            "lv6": "Increase Fire type units Attack by 15% + Magic Attack by 10%"
+        },
+        "passiveSkill": {
+            "title": "Magic Attack UP",
+            "lv1": "Increase own Magic Attack by 20% + Poison Resistance by 60% + Sleep Resistance by 60%",
+            "lv5": "Increase own Magic Attack by 30% + Poison Resistance by 80% + Sleep Resistance by 80%"
+        },
+        "activeSkill": {
+            "one": {
+                "title": "Spring Knuckle",
+                "desc": "Deals 150% Magic Damage to all enemies"
+            },
+            "two": {
+                "title": "Full Bloom Smile ~ nyan✰✰✰",
+                "desc": "Deals 110% Magic Damage to all enemies + chance to inflict Burn (1 turn) + give self buff, when attacking an enemy with burn status, increase damage by 200%"
+            }
+        }
+    },
+    "58": {
         "thumb": "cc_0002002_01.png",
         "altArt": "cc_0002002_02.png",
         "title": "Smol Shishou",
@@ -2352,7 +2437,7 @@
             }
         }
     },
-    "57": {
+    "59": {
         "thumb": "cc_0003004_01.png",
         "altArt": "cc_0003004_02.png",
         "title": "Miracle Angel",
@@ -2395,7 +2480,7 @@
             }
         }
     },
-    "58": {
+    "60": {
         "thumb": "cc_0001005_01.png",
         "altArt": "cc_0001005_02.png",
         "title": "Oracle Magician",
@@ -2438,7 +2523,7 @@
             }
         }
     },
-    "59": {
+    "61": {
         "thumb": "cc_0005005_01.png",
         "altArt": "cc_0005005_02.png",
         "title": "Noto's Naughty Boy",
@@ -2481,7 +2566,7 @@
             }
         }
     },
-    "60": {
+    "62": {
         "thumb": "cc_0010002_01.png",
         "altArt": "cc_0010002_02.png",
         "title": "Sword King",
@@ -2524,7 +2609,7 @@
             }
         }
     },
-    "61": {
+    "63": {
         "thumb": "cc_0004005_01.png",
         "altArt": "cc_0004005_02.png",
         "title": "Trust's Smile",
@@ -2567,7 +2652,7 @@
             }
         }
     },
-    "62": {
+    "64": {
         "thumb": "cc_0016002_01.png",
         "altArt": "cc_0016002_02.png",
         "title": "Devilish Beauty",

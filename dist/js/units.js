@@ -85,6 +85,7 @@ $(document).ready(function () {
                         <img class="mx-auto h-24 rounded-2xl md:mx-0 sm:flex-shrink-0"
                             src="./dist/img/units/${units.thumb}" alt="${units.name}">
                     </div>
+
                     <div class="pl-2">
                         <div class="uppercase tracking-wider text-xs text-amber-500 font-semibold">${units.title}</div>
                         <a href="./unit.html?id=${id}" class="text-xl text-amber-900 hover:underline">${units.name}</a>
@@ -92,10 +93,12 @@ $(document).ready(function () {
                             <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
                                 ${rarity}
                             </div>
+
                             <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
                                 <!-- <img class="inline-block w-4" src="./dist/img/elements/${units.element}.png" alt="${units.element}"> -->
                                 ${units.element}
                             </div>
+                            
                             <div class="inline-block items-center justify-center px-2 py-1 text-xs font-bold leading-none text-gray-100 bg-gray-700 rounded">
                                 ${units.tier.rank} Tier
                             </div>
