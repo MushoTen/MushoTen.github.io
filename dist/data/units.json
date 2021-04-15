@@ -1,5 +1,5 @@
-{
-    "1": {
+[
+    {
         "thumb": "cc_0001010_01.png",
         "title": "Skillful Actor",
         "name": "Rudeus",
@@ -41,7 +41,7 @@
             }
         }
     },
-    "2": {
+    {
         "thumb": "cc_0002008_01.png",
         "title": "Blue Haired Beauty",
         "name": "Roxy",
@@ -83,7 +83,7 @@
             }
         }
     },
-    "3": {
+    {
         "thumb": "cc_0004001_01.png",
         "title": "Tomboyish Girl",
         "name": "Eris",
@@ -125,7 +125,7 @@
             }
         }
     },
-    "4": {
+    {
         "thumb": "cc_0007001_01.png",
         "title": "Grayrat Family Maid",
         "name": "Lilia",
@@ -167,7 +167,7 @@
             }
         }
     },
-    "5": {
+    {
         "thumb": "cc_0010001_01.png",
         "title": "Magician's Apprentice",
         "name": "Ghislaine",
@@ -209,7 +209,7 @@
             }
         }
     },
-    "6": {
+    {
         "thumb": "cc_0001001_01.png",
         "title": "Reincarnated",
         "name": "Rudeus",
@@ -251,7 +251,7 @@
             }
         }
     },
-    "7": {
+    {
         "thumb": "cc_0001012_01.png",
         "title": "New Outfit",
         "name": "Rudeus",
@@ -293,7 +293,7 @@
             }
         }
     },
-    "8": {
+    {
         "thumb": "cc_0002003_01.png",
         "title": "Midgurd Mage",
         "name": "Roxy",
@@ -335,7 +335,7 @@
             }
         }
     },
-    "9": {
+    {
         "thumb": "cc_0003001_01.png",
         "title": "Girl from Buena Village",
         "name": "Sylphiette",
@@ -377,7 +377,7 @@
             }
         }
     },
-    "10": {
+    {
         "thumb": "cc_0003008_01.png",
         "title": "Long Eared Girl",
         "name": "Sylphiette",
@@ -419,7 +419,7 @@
             }
         }
     },
-    "11": {
+    {
         "thumb": "cc_0006003_01.png",
         "title": "Milis Believer",
         "name": "Zenith",
@@ -461,7 +461,7 @@
             }
         }
     },
-    "12": {
+    {
         "thumb": "cc_0001011_01.png",
         "title": "Towards a New Land",
         "name": "Rudeus",
@@ -503,7 +503,7 @@
             }
         }
     },
-    "13": {
+    {
         "thumb": "cc_0002001_01.png",
         "title": "Home Tutor",
         "name": "Roxy",
@@ -545,7 +545,7 @@
             }
         }
     },
-    "14": {
+    {
         "thumb": "cc_0002009_01.png",
         "title": "Investigative Journey",
         "name": "Roxy",
@@ -587,7 +587,7 @@
             }
         }
     },
-    "15": {
+    {
         "thumb": "cc_0006001_01.png",
         "title": "Healer of Charity",
         "name": "Zenith",
@@ -629,7 +629,7 @@
             }
         }
     },
-    "16": {
+    {
         "thumb": "cc_0011001_01.png",
         "title": "Familiar of a Hero",
         "name": "Almanfi",
@@ -671,7 +671,7 @@
             }
         }
     },
-    "17": {
+    {
         "thumb": "cc_0001009_01.png",
         "title": "Childhood Period",
         "name": "Rudeus",
@@ -713,7 +713,7 @@
             }
         }
     },
-    "18": {
+    {
         "thumb": "cc_0002007_01.png",
         "title": "Sleepy Mage",
         "name": "Roxy",
@@ -755,7 +755,7 @@
             }
         }
     },
-    "19": {
+    {
         "thumb": "cc_0003007_01.png",
         "title": "Bishounen?",
         "name": "Sylphiette",
@@ -797,7 +797,7 @@
             }
         }
     },
-    "20": {
+    {
         "thumb": "cc_0003009_01.png",
         "title": "Becoming Independent",
         "name": "Sylphiette",
@@ -839,7 +839,7 @@
             }
         }
     },
-    "21": {
+    {
         "thumb": "cc_0017001_01.png",
         "title": "Harsh, Large Mountain Summit",
         "name": "Talhand",
@@ -881,7 +881,7 @@
             }
         }
     },
-    "22": {
+    {
         "thumb": "cc_0004004_01.png",
         "title": "Daughter of House Boreas",
         "name": "Eris",
@@ -923,7 +923,7 @@
             }
         }
     },
-    "23": {
+    {
         "thumb": "cc_0015002_01.png",
         "title": "New Member",
         "name": "Ruijerd",
@@ -965,7 +965,7 @@
             }
         }
     },
-    "24": {
+    {
         "thumb": "cc_0015008_01.png",
         "title": "Warrior of the Superd Tribe",
         "name": "Ruijerd",
@@ -1007,7 +1007,7 @@
             }
         }
     },
-    "25": {
+    {
         "thumb": "cc_0016001_01.png",
         "title": "S Rank Adventurer",
         "name": "Elinalise",
@@ -1049,7 +1049,7 @@
             }
         }
     },
-    "26": {
+    {
         "thumb": "cc_0017003_01.png",
         "title": "Investigative Journey",
         "name": "Talhand",
@@ -1091,7 +1091,7 @@
             }
         }
     },
-    "27": {
+    {
         "thumb": "cc_0018003_01.png",
         "title": "Smug Face",
         "name": "Nokopara",
@@ -1133,7 +1133,7 @@
             }
         }
     },
-    "28": {
+    {
         "thumb": "cc_0001004_01.png",
         "title": "Elementary-Ranked Sword God",
         "name": "Rudeus",
@@ -1175,7 +1175,7 @@
             }
         }
     },
-    "29": {
+    {
         "thumb": "cc_0004013_01.png",
         "title": "The Boreas Bloodline",
         "name": "Eris",
@@ -1217,7 +1217,7 @@
             }
         }
     },
-    "30": {
+    {
         "thumb": "cc_0004014_01.png",
         "title": "Towards a New Land",
         "name": "Eris",
@@ -1259,7 +1259,7 @@
             }
         }
     },
-    "31": {
+    {
         "thumb": "cc_0005009_01.png",
         "title": "Spoiled Brat",
         "name": "Paul",
@@ -1301,7 +1301,7 @@
             }
         }
     },
-    "32": {
+    {
         "thumb": "cc_0010003_01.png",
         "title": "Eyepatched Swordsman",
         "name": "Ghislaine",
@@ -1343,7 +1343,7 @@
             }
         }
     },
-    "33": {
+    {
         "thumb": "cc_0004015_01.png",
         "title": "My Favourite Clothes",
         "name": "Eris",
@@ -1385,7 +1385,7 @@
             }
         }
     },
-    "34": {
+    {
         "thumb": "cc_0005007_01.png",
         "title": "Genius Swordsman",
         "name": "Paul",
@@ -1427,7 +1427,7 @@
             }
         }
     },
-    "35": {
+    {
         "thumb": "cc_0011003_01.png",
         "title": "Dagger User",
         "name": "Almanfi",
@@ -1469,7 +1469,7 @@
             }
         }
     },
-    "36": {
+    {
         "thumb": "cc_0018001_01.png",
         "title": "Cheapskate",
         "name": "Nokopara",
@@ -1511,7 +1511,7 @@
             }
         }
     },
-    "37": {
+    {
         "thumb": "cc_0001002_01.png",
         "title": "Overflowing with Talent",
         "name": "Rudeus",
@@ -1553,7 +1553,7 @@
             }
         }
     },
-    "38": {
+    {
         "thumb": "cc_0005001_01.png",
         "title": "Buena Village Knight",
         "name": "Paul",
@@ -1595,7 +1595,7 @@
             }
         }
     },
-    "39": {
+    {
         "thumb": "cc_0007004_01.png",
         "title": "Skilled Maid",
         "name": "Lilia",
@@ -1637,7 +1637,7 @@
             }
         }
     },
-    "40": {
+    {
         "thumb": "cc_0016003_01.png",
         "title": "Investigative Journey",
         "name": "Elinalise",
@@ -1679,7 +1679,7 @@
             }
         }
     },
-    "41": {
+    {
         "thumb": "cc_0002010_01.png",
         "title": "Festival Fireworks",
         "name": "Roxy",
@@ -1721,7 +1721,7 @@
             }
         }
     },
-    "42": {
+    {
         "thumb": "cc_0002004_01.png",
         "title": "Teacher's Night Lessons",
         "name": "Roxy",
@@ -1763,7 +1763,7 @@
             }
         }
     },
-    "43": {
+    {
         "thumb": "cc_0017002_01.png",
         "title": "S Ranked Adventurer",
         "name": "Talhand",
@@ -1805,7 +1805,7 @@
             }
         }
     },
-    "44": {
+    {
         "thumb": "cc_0003002_01.png",
         "title": "Crybaby",
         "name": "Sylphiette",
@@ -1847,7 +1847,7 @@
             }
         }
     },
-    "45": {
+    {
         "thumb": "cc_0002005_01.png",
         "title": "Water King Class Magician",
         "name": "Roxy",
@@ -1889,7 +1889,7 @@
             }
         }
     },
-    "46": {
+    {
         "thumb": "cc_0003003_01.png",
         "title": "Healer in Training",
         "name": "Sylphiette",
@@ -1931,7 +1931,7 @@
             }
         }
     },
-    "47": {
+    {
         "thumb": "cc_0001003_01.png",
         "title": "Home Tutor",
         "name": "Rudeus",
@@ -1973,7 +1973,7 @@
             }
         }
     },
-    "48": {
+    {
         "thumb": "cc_0001006_01.png",
         "title": "Adventurer",
         "name": "Rudeus",
@@ -2015,7 +2015,7 @@
             }
         }
     },
-    "49": {
+    {
         "thumb": "cc_0015001_01.png",
         "title": "From a Hated Race",
         "name": "Ruijerd",
@@ -2057,7 +2057,7 @@
             }
         }
     },
-    "50": {
+    {
         "thumb": "cc_0004003_01.png",
         "title": "Adventurer",
         "name": "Eris",
@@ -2099,7 +2099,7 @@
             }
         }
     },
-    "51": {
+    {
         "thumb": "cc_0010004_01.png",
         "title": "Boreas Family Sword Instructor",
         "name": "Ghislaine",
@@ -2141,7 +2141,7 @@
             }
         }
     },
-    "52": {
+    {
         "thumb": "cc_0005002_01.png",
         "title": "Backbone of the Greyrats",
         "name": "Paul",
@@ -2183,7 +2183,7 @@
             }
         }
     },
-    "53": {
+    {
         "thumb": "cc_0004002_01.png",
         "title": "Tsundere Princess",
         "name": "Eris",
@@ -2225,7 +2225,7 @@
             }
         }
     },
-    "54": {
+    {
         "thumb": "cc_0004006_01.png",
         "title": "Red-Haired Swordsman",
         "name": "Eris",
@@ -2267,7 +2267,7 @@
             }
         }
     },
-    "55": {
+    {
         "thumb": "cc_0005006_01.png",
         "title": "Swordsman Prodigy",
         "name": "Paul",
@@ -2309,7 +2309,7 @@
             }
         }
     },
-    "56": {
+    {
         "thumb": "cc_0007002_01.png",
         "title": "Maid with Glasses",
         "name": "Lilia",
@@ -2351,7 +2351,7 @@
             }
         }
     },
-    "57": {
+    {
         "thumb": "cc_0004016_01.png",
         "altArt": "cc_0004016_02.png",
         "title": "Festive Flower Storm",
@@ -2394,7 +2394,7 @@
             }
         }
     },
-    "58": {
+    {
         "thumb": "cc_0002002_01.png",
         "altArt": "cc_0002002_02.png",
         "title": "Smol Shishou",
@@ -2437,7 +2437,7 @@
             }
         }
     },
-    "59": {
+    {
         "thumb": "cc_0003004_01.png",
         "altArt": "cc_0003004_02.png",
         "title": "Miracle Angel",
@@ -2480,7 +2480,7 @@
             }
         }
     },
-    "60": {
+    {
         "thumb": "cc_0001005_01.png",
         "altArt": "cc_0001005_02.png",
         "title": "Oracle Magician",
@@ -2523,7 +2523,7 @@
             }
         }
     },
-    "61": {
+    {
         "thumb": "cc_0005005_01.png",
         "altArt": "cc_0005005_02.png",
         "title": "Noto's Naughty Boy",
@@ -2566,7 +2566,7 @@
             }
         }
     },
-    "62": {
+    {
         "thumb": "cc_0010002_01.png",
         "altArt": "cc_0010002_02.png",
         "title": "Sword King",
@@ -2609,7 +2609,7 @@
             }
         }
     },
-    "63": {
+    {
         "thumb": "cc_0004005_01.png",
         "altArt": "cc_0004005_02.png",
         "title": "Trust's Smile",
@@ -2652,7 +2652,7 @@
             }
         }
     },
-    "64": {
+    {
         "thumb": "cc_0016002_01.png",
         "altArt": "cc_0016002_02.png",
         "title": "Devilish Beauty",
@@ -2695,4 +2695,4 @@
             }
         }
     }
-}
+]

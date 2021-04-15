@@ -14,16 +14,26 @@ $(document).ready(function () {
         let units = [];
         if (search[1] === `AA`) search[1] = `A+`;
 
-        $(data).filter(function (_, items) {
-            $.each(items, function (_, value) {
-                $.each(infos, function (_, info) {
-                    if (info.name === value.name) {
-                        value["gender"] = info.gender;
-                    }
-                });
+        // $(data).filter(function (_, items) {
+        //     $.each(items, function (_, value) {
+        //         $.each(infos, function (_, info) {
+        //             if (info.name === value.name) {
+        //                 value["gender"] = info.gender;
+        //             }
+        //         });
 
-                units.push(value);
+        //         units.push(value);
+        //     });
+        // });
+
+        $.each(data, function (_, value) {
+            $.each(infos, function (_, info) {
+                if (info.name === value.name) {
+                    value["gender"] = info.gender;
+                }
             });
+
+            units.push(value);
         });
 
         $.each(search, function (key, value) {
@@ -65,11 +75,7 @@ $(document).ready(function () {
         }
 
         $.each(units, function (_, unit) {
-            let id = ``;
-            $.each(data, function (key, item) {
-                if (item.thumb === unit.thumb) id = key;
-            });
-
+            let id = unit.thumb.split("_")[1];
             unitsTemplateList(id, unit);
         });
     });

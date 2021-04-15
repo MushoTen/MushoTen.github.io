@@ -4,8 +4,8 @@ const idSearch = urlParams.get("id");
 
 $(document).ready(function () {
     $.getJSON("./dist/data/units.json", function (data) {
-        $.each(data, function (key, value) {
-            if (key === idSearch) {
+        $.each(data, function (_, value) {
+            if (value.thumb.split("_")[1] === idSearch) {
                 $.getJSON("./dist/data/settings.json", function (data) {
                     $.each(data, function (_, title) {
                         $(document).prop("title", `${value.name} | ${title}`);
