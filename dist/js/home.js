@@ -17,7 +17,7 @@ function refreshDate() {
     $("#current-time").text(currentTime);
 
     $("#reset-reminder-labyrinth").text(getReset(labyrinth, currentDateTime, "Labyrinth opens", true));
-    $("#reset-reminder-daily").text(getReset(daily, currentDateTime, "Daily resets"));
+    $("#reset-reminder-daily").text(getReset(daily, currentDateTime, "Daily reset"));
 
     setTimeout(() => refreshDate(), 1000);
 }
