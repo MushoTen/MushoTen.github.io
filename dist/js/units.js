@@ -3,6 +3,39 @@ const urlParams = new URLSearchParams(queryString);
 const search = [urlParams.get("r"), urlParams.get("t"), urlParams.get("e"), urlParams.get("u"), urlParams.get("g")];
 
 $(document).ready(function () {
+    $.getJSON("./dist/data/elements.json", function (data) {
+        $("#filter-element-links").append(searchFilterLink("e", "Any"));
+        $.each(data, function (_, value) {
+            $("#filter-element-links").append(searchFilterLink("e", value));
+        });
+    });
+
+    $.getJSON("./dist/data/units-info.json", function (data) {
+        $("#filter-unit-links").append(searchFilterLink("u", "Any"));
+        $.each(data, function (_, value) {
+            $("#filter-unit-links").append(searchFilterLink("u", value.name));
+        });
+    });
+
+    $.getJSON("./dist/data/tiers.json", function (data) {
+        $("#filter-tier-links").append(searchFilterLink("t", "Any"));
+        $.each(data, function (_, value) {
+            $("#filter-tier-links").append(searchFilterLink("t", value));
+        });
+    });
+
+    $.getJSON("./dist/data/units-rarity.json", function (data) {
+        $("#filter-rarity-links").append(searchFilterLink("r", "Any"));
+        $.each(data, function (_, value) {
+            $("#filter-rarity-links").append(searchFilterLink("r", value));
+        });
+    });
+
+    $("#filter-gender-links").append(searchFilterLink("g", "Any"));
+    $.each(["Male", "Female"], function (_, value) {
+        $("#filter-gender-links").append(searchFilterLink("g", value));
+    });
+
     let infos = [];
     $.getJSON("./dist/data/units-info.json", function (data) {
         $.each(data, function (key, value) {
@@ -13,18 +46,6 @@ $(document).ready(function () {
     $.getJSON("./dist/data/units.json", function (data) {
         let units = [];
         if (search[1] === `AA`) search[1] = `A+`;
-
-        // $(data).filter(function (_, items) {
-        //     $.each(items, function (_, value) {
-        //         $.each(infos, function (_, info) {
-        //             if (info.name === value.name) {
-        //                 value["gender"] = info.gender;
-        //             }
-        //         });
-
-        //         units.push(value);
-        //     });
-        // });
 
         $.each(data, function (_, value) {
             $.each(infos, function (_, info) {
@@ -79,6 +100,46 @@ $(document).ready(function () {
             unitsTemplateList(id, unit);
         });
     });
+
+    function searchFilterLink(type, value) {
+        const urlParams = new URLSearchParams(queryString);
+        const search = {
+            r: urlParams.get("r"),
+            t: urlParams.get("t"),
+            e: urlParams.get("e"),
+            u: urlParams.get("u"),
+            g: urlParams.get("g"),
+        };
+
+        let searchString = value;
+        if (value > 0) value += `-star`;
+        if (value === `AA`) value = `A+`;
+
+        let href = ``;
+        let count = 0;
+
+        $.each(search, function (key, item) {
+            if (count === 0) {
+                href += `?`;
+                count++;
+            }
+
+            if (type === key) {
+                href += `${key}=${searchString}`;
+                count++;
+                if (count !== 0) href += `&`;
+            } else {
+                if (typeof item === `string`) {
+                    href += `${key}=${item}`;
+                    count++;
+                    if (count !== 0) href += `&`;
+                }
+            }
+        });
+
+        href = href.substring(0, href.length - 1);
+        return `<a href="${href}" class="inline-block pr-2 text-amber-900 hover:underline hover:text-amber-700">${value}</a>`;
+    }
 
     function unitsTemplateList(id, units) {
         let rarity = ``;

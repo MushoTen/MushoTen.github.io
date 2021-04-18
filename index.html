@@ -19,11 +19,17 @@
             <ul class="pl-4 list-disc" id="alerts"></ul>
         </div>
 
-        <div class="bg-white mb-4 rounded-lg py-2 px-4">
-            <h1 class="text-base mb-2">Daily Rotation (Tentative)</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-white mb-4 rounded-lg py-2 px-4">
+                <h1 class="text-base mb-2 text-center">
+                    <div id="current-date"></div>
+                    <div id="current-time"></div>
+                </h1>
 
-            <div class="space-y-1">
-
+                <div class="space-y-1 pl-4 text-center">
+                    <div class="text-sm font-semibold" id="reset-reminder-labyrinth"></div>
+                    <div class="text-sm font-semibold" id="reset-reminder-daily"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -33,8 +39,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./dist/js/showdown.min.js"></script>
+    <script src="./dist/js/moment.min.js"></script>
+    <script src="./dist/js/moment-timezone.min.js"></script>
     <script src="./dist/js/mushoten.js"></script>
-    <script src="./dist/js/units.js"></script>
+    <script src="./dist/js/home.js"></script>
 </body>
 
 </html>
