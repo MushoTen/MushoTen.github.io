@@ -6,7 +6,7 @@ $(document).ready(function () {
         let title = $(document).prop("title");
 
         $.each(data, function (_, value) {
-            if (title === `Units` || title === `Equipments`) {
+            if (title === `Home` || title === `Units` || title === `Equipments`) {
                 $(document).prop("title", `${title} | ${value}`);
             }
         });
